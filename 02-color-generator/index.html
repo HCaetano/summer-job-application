@@ -16,6 +16,22 @@
       margin: 25px;
       padding: 10px;
     }
+
+    section {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-evenly;
+    }
+
+    .color-block {
+      border: 1px solid black;
+      height: 250px;
+      width: 250px;
+    }
+
+    button, div:last-of-type {
+      padding: 5px;
+    }
   </style>
   <title>Gerador de cores</title>
 </head>
@@ -23,7 +39,17 @@
 <body>
   <h1>Este é o gerador de cores!</h1>
   <section>
-    <div></div>
+    <div class="color-block"></div>
+    <div class="color-block"></div>
+    <div class="color-block"></div>
+    <div class="color-block"></div>
+  </section>
+  <section>
+    <button>Gerar cores!</button>
+    <div>
+      <label for="insert-color">Escolha uma cor:</label>
+      <input type="text" id="insert-color">
+    </div>
   </section>
 </body>
 
