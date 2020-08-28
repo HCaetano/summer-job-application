@@ -51,6 +51,27 @@
       <input type="text" id="insert-color">
     </div>
   </section>
+  <script>
+    const colorBlocks = document.querySelectorAll('.color-block');
+    const button = document.querySelector('button');
+    const textInput = document.querySelector('input');
+    
+    button.addEventListener('click', function () {
+      for (let index = 0; index < colorBlocks.length; index += 1) {
+        const red = Math.floor(Math.random() * 256);
+        const green = Math.floor(Math.random() * 256);
+        const blue = Math.floor(Math.random() * 256);
+        colorBlocks[index].style.backgroundColor = 'rgb(' + red + ', ' + green + ', ' + blue + ')';
+      }
+    })
+
+    textInput.addEventListener('input', function (target) {
+      const chosenColor = textInput.value;
+      for (let index = 0; index < colorBlocks.length; index += 1) {
+        colorBlocks[index].style.backgroundColor = chosenColor;
+      }
+    })
+  </script>
 </body>
 
 </html>
