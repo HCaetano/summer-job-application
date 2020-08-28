@@ -29,7 +29,8 @@
       width: 250px;
     }
 
-    button, div:last-of-type {
+    button,
+    div:last-of-type {
       padding: 5px;
     }
   </style>
@@ -45,7 +46,18 @@
     <div class="color-block"></div>
   </section>
   <section>
-    <button>Gerar cores!</button>
+    <div>
+      <label for="insert-color">Escolha uma cor:</label>
+      <input type="text" id="insert-color">
+    </div>
+    <div>
+      <label for="insert-color">Escolha uma cor:</label>
+      <input type="text" id="insert-color">
+    </div>
+    <div>
+      <label for="insert-color">Escolha uma cor:</label>
+      <input type="text" id="insert-color">
+    </div>
     <div>
       <label for="insert-color">Escolha uma cor:</label>
       <input type="text" id="insert-color">
@@ -53,24 +65,27 @@
   </section>
   <script>
     const colorBlocks = document.querySelectorAll('.color-block');
-    const button = document.querySelector('button');
-    const textInput = document.querySelector('input');
-    
-    button.addEventListener('click', function () {
-      for (let index = 0; index < colorBlocks.length; index += 1) {
-        const red = Math.floor(Math.random() * 256);
-        const green = Math.floor(Math.random() * 256);
-        const blue = Math.floor(Math.random() * 256);
-        colorBlocks[index].style.backgroundColor = 'rgb(' + red + ', ' + green + ', ' + blue + ')';
-      }
-    })
+    const textInputs = document.querySelectorAll('input');
 
-    textInput.addEventListener('input', function (target) {
-      const chosenColor = textInput.value;
-      for (let index = 0; index < colorBlocks.length; index += 1) {
-        colorBlocks[index].style.backgroundColor = chosenColor;
-      }
-    })
+    textInputs[0].addEventListener('input', function () {
+      const chosenColor = textInputs[0].value;
+      colorBlocks[0].style.backgroundColor = chosenColor;
+    });
+
+    textInputs[1].addEventListener('input', function () {
+      const chosenColor = textInputs[1].value;
+      colorBlocks[1].style.backgroundColor = chosenColor;
+    });
+
+    textInputs[2].addEventListener('input', function () {
+      const chosenColor = textInputs[2].value;
+      colorBlocks[2].style.backgroundColor = chosenColor;
+    });
+
+    textInputs[3].addEventListener('input', function () {
+      const chosenColor = textInputs[3].value;
+      colorBlocks[3].style.backgroundColor = chosenColor;
+    });
   </script>
 </body>
 
