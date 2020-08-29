@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: auto;
+      width: 90%;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    section {
+      border: 1px solid aquamarine;
+      display: flex;
+      flex-direction: row;
+      margin: 10px auto;
+      width: 1200px;
+    }
+
+    .sky {
+      align-items: flex-end;
+      height: 500px;
+      justify-content: space-between;
+    }
+
+    section:last-of-type {
+      align-items: center;
+      height: 100px;
+      justify-content: space-evenly;
+    }
+
+    .quadrant:nth-of-type(2) {
+      align-self: flex-start;
+    }
+
+    .quadrant>img {
+      border-radius: 50%;
+      height: 200px;
+    }
+
+    section>img {
+      height: 100px;
+    }
+
+    .quadrant {
+      height: 200px;
+      width: 200px;
+    }
+
+    button {
+      padding: 10px;
+    }
+
+    .sunrise {
+      background: linear-gradient(to top, #58151A, #BC2909, #BA6D09, #71A8EE, #3072EB, #1552C6, #0542A8);
+    }
+
+    .sunset {
+      background: linear-gradient(to top, #040308, #AD4A28, #DD723C, #FC7001, #DCB697, #9BA5AE, #3E5879, #020B1A);
+    }
+
+    .night {
+      background-color: black;
+    }
+
+    .midday {
+      background-color: rgb(221, 245, 255)
+    }
+  </style>
+  <title>Relógio solar</title>
+</head>
+
+<body>
+  <h1>Relógio solar</h1>
+  <section class="sky night">
+    <div class="quadrant"></div>
+    <div class="quadrant"></div>
+    <div class="quadrant"></div>
+  </section>
+  <section>
+    <button>Avançar</button>
+    <img src="img/sundial.png" alt="Sundial">
+    <div>
+      <label for="time">Relógio moderno:</label>
+      <input type="time" id="time">
+    </div>
+  </section>
+  <script>
+    const button = document.querySelector('button');
+    const quadrants = document.querySelectorAll('.quadrant');
+    const sky = document.querySelector('.sky');
+    const sundial = document.querySelector('section > img');
+    const modernClock = document.querySelector('input');
+    const sun = 'img/sun.png';
+    let position = -1;
+    let previousPosition;
+
+    function changeSkyColor(position) {
+      switch (position) {
+        case 0:
+          sky.classList.add('sunrise');
+          break;
+        case 1:
+          sky.classList.remove('sunrise');
+          sky.classList.add('midday');
+          break;
+        case 2:
+          sky.classList.remove('midday');
+          sky.classList.add('sunset');
+          break;
+        case 3:
+          sky.classList.remove('sunset');
+          sky.classList.add('night');
+          break;
+        default:
+          break;
+      }
+    }
+
+    function handleSunAppearance(position) {
+      const image = document.createElement('img');
+      image.src = sun;
+
+      if (position > -1) {
+        previousPosition = position - 1;
+
+        if (position > 0) {
+          quadrants[previousPosition].innerHTML = '';
+        }
+
+        if (position < 3) {
+          quadrants[position].appendChild(image);
+        }
+      }
+
+      modernClock.value = '';
+    }
+
+    button.addEventListener('click', function () {
+      position = position > 2 ? 0 : position + 1;
+      changeSkyColor(position);
+      handleSunAppearance(position);
+    });
+
+    function whatTimeIsIt(position) {
+      switch (position) {
+        case 0:
+          modernClock.value = '06:00'
+          break;
+        case 1:
+          modernClock.value = '12:00'
+          break;
+        case 2:
+          modernClock.value = '18:00'
+          break;
+        default:
+          break;
+      }
+    }
+
+    sundial.addEventListener('mouseover', function () {
+      whatTimeIsIt(position);
+    })
+  </script>
+</body>
+
+</html>
