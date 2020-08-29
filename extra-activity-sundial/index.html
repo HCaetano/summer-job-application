@@ -94,9 +94,13 @@
     const button = document.querySelector('button');
     const quadrants = document.querySelectorAll('.quadrant');
     const sky = document.querySelector('.sky');
+    const sundial = document.querySelector('section > img');
+    const modernClock = document.querySelector('input');
     const sun = 'img/sun.png';
     let position = -1;
     let previousPosition;
+
+    console.log(modernClock)
 
     function changeSkyColor(position) {
       switch (position) {
@@ -142,6 +146,22 @@
       changeSkyColor(position);
       handleSunAppearance(position);
     });
+
+    sundial.addEventListener('mouseover', function () {
+      switch (position) {
+        case 0:
+          modernClock.value = '06:00'
+          break;
+        case 1:
+          modernClock.value = '12:00'
+          break;
+        case 2:
+          modernClock.value = '18:00'
+          break;
+        default:
+          break;
+      }
+    })
   </script>
 </body>
 
