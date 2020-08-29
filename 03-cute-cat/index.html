@@ -7,7 +7,7 @@
   <style>
     body {
       margin: auto;
-      width: 80%;
+      width: 90%;
     }
 
     h1,
@@ -28,6 +28,10 @@
       height: 100%;
     }
 
+    img {
+      max-width: 100%;
+    }
+
     div:first-of-type {
       width: 60%;
     }
@@ -42,7 +46,7 @@
 
     p {
       align-items: center;
-      background-image: linear-gradient(to right, #a1c4fd , #c2e9fb);
+      background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
       border-radius: 10%;
       display: flex;
       font-size: 20px;
@@ -67,6 +71,28 @@
       <p>"Joga o meu ratinho de pelúcia, pessoa!"</p>
     </div>
   </section>
+  <script>
+    const catDialogues = document.querySelectorAll('p');
+    const image = document.querySelector('img');
+
+    catDialogues[0].addEventListener('mouseover', function () {
+      image.src = 'img/cats_02.jpg';
+    });
+
+    catDialogues[1].addEventListener('mouseover', function () {
+      image.src = 'img/cats_03.jpg';
+    });
+
+    catDialogues[2].addEventListener('mouseover', function () {
+      image.src = 'img/cats_04.jpg';
+    });
+
+    for (let index = 0; index < catDialogues.length; index += 1) {
+      catDialogues[index].addEventListener('mouseout', function () {
+        image.src = 'img/cats_01.jpg';
+      });
+    }
+  </script>
 </body>
 
 </html>
