@@ -14,6 +14,9 @@
     section {
       margin: 25px;
       padding: 10px;
+    }
+
+    h1 {
       text-align: center;
     }
 
@@ -22,18 +25,10 @@
       justify-content: space-around;
     }
 
-    section:first-of-type,
-    div {
-      background-size: contain;
-    }
-
-    section:first-of-type,
-    .bandages div:nth-child(1) {
+    section:first-of-type {
       background-position: center;
       background-repeat: no-repeat;
-    }
-
-    section:first-of-type {
+      background-size: contain;
       background-image: url(img/ship.jpg);
       align-items: flex-end;
       height: 500px;
@@ -43,24 +38,15 @@
       height: 60px;
     }
 
-    div {
-      background-image: url(img/hole.png);
+    .hole {
       border-radius: 50%;
       height: 50px;
-      margin-bottom: 40px;
       width: 50px;
+      margin-bottom: 40px;
     }
 
-    .bandages div:nth-child(1) {
-      background-image: url(img/green-bandage.png);
-    }
-
-    .bandages div:nth-child(2) {
-      background-image: url(img/red-bandage.png);
-    }
-
-    .bandages div:nth-child(3) {
-      background-image: url(img/violet-bandage.png);
+    img {
+      width: 60px;
     }
   </style>
   <title>Fix the ship's holes</title>
@@ -69,15 +55,32 @@
 <body>
   <h1>Escolha um curativo e tape os buracos!</h1>
   <section>
-    <div></div>
-    <div></div>
-    <div></div>
+    <img class="hole" src="img/hole.png" alt="">
+    <img class="hole" src="img/hole.png" alt="">
+    <img class="hole" src="img/hole.png" alt="">
   </section>
   <section class="bandages">
-    <div></div>
-    <div></div>
-    <div></div>
+    <img src="img/green-bandage.png" alt="">
+    <img src="img/red-bandage.png" alt="">
+    <img src="img/violet-bandage.png" alt="">
   </section>
+  <script>
+    const holes = document.querySelectorAll('.hole');
+    const bandages = document.querySelectorAll('.bandages');
+    let selectedBandage;
+
+    for (let index = 0; index < bandages.length; index += 1) {
+      bandages[index].addEventListener('click', function (event) {
+        selectedBandage = event.target.src;
+      })
+    }
+
+    for (let index = 0; index < holes.length; index += 1) {
+      holes[index].addEventListener('click', function (event) {
+        holes[index].src = selectedBandage;
+      })
+    }
+  </script>
 </body>
 
 </html>
