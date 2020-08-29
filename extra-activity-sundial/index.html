@@ -24,7 +24,6 @@
 
     .sky {
       align-items: flex-end;
-      background-color: black;
       height: 500px;
       justify-content: space-between;
     }
@@ -64,13 +63,21 @@
     .sunset {
       background: linear-gradient(to top, #040308, #AD4A28, #DD723C, #FC7001, #DCB697, #9BA5AE, #3E5879, #020B1A);
     }
+
+    .night {
+      background-color: black;
+    }
+
+    .midday {
+      background-color: rgb(221, 245, 255)
+    }
   </style>
   <title>Relógio solar</title>
 </head>
 
 <body>
   <h1>Relógio solar</h1>
-  <section class="sky">
+  <section class="sky midday">
     <div class="quadrant"></div>
     <div class="quadrant"></div>
     <div class="quadrant"></div>
@@ -86,15 +93,35 @@
   <script>
     const button = document.querySelector('button');
     const quadrants = document.querySelectorAll('.quadrant');
+    const sky = document.querySelector('.sky');
     const sun = 'img/sun.png';
     const moon = 'img/moon.png';
-    let position = 0;
+    let position = -1;
+
+    function changeSkyColor(position) {
+      switch (position) {
+        case 0:
+          sky.classList.add('sunrise');
+          break;
+        case 1:
+          sky.classList.remove('sunrise');
+          sky.classList.add('midday');
+          break;
+        case 2:
+          sky.classList.remove('midday');
+          sky.classList.add('sunset');
+          break;
+        default:
+          break;
+      }
+    }
 
     button.addEventListener('click', function () {
       const image = document.createElement('img');
       image.src = sun;
-      quadrants[position].appendChild(image);
       position += 1;
+      changeSkyColor(position);      
+      quadrants[position].appendChild(image);
     })
   </script>
 </body>
