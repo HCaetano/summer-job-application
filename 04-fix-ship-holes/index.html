@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: auto;
+      width: 90%;
+    }
+
+    h1,
+    section {
+      margin: 25px;
+      padding: 10px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    section:first-of-type {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url(img/ship.jpg);
+      align-items: flex-end;
+      height: 500px;
+    }
+
+    section:last-of-type {
+      height: 60px;
+    }
+
+    .hole {
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      margin-bottom: 40px;
+    }
+
+    img {
+      width: 60px;
+    }
+  </style>
+  <title>Fix the ship's holes</title>
+</head>
+
+<body>
+  <h1>Escolha um curativo e tape os buracos!</h1>
+  <section>
+    <img class="hole" src="img/hole.png" alt="Hole in ship's hull">
+    <img class="hole" src="img/hole.png" alt="Hole in ship's hull">
+    <img class="hole" src="img/hole.png" alt="Hole in ship's hull">
+  </section>
+  <section class="bandages">
+    <img src="img/green-bandage.png" alt="Green bandage">
+    <img src="img/red-bandage.png" alt="Red bandage">
+    <img src="img/violet-bandage.png" alt="Violet bandage">
+  </section>
+  <script>
+    const holes = document.querySelectorAll('.hole');
+    const bandages = document.querySelectorAll('.bandages');
+    let selectedBandage;
+
+    for (let index = 0; index < bandages.length; index += 1) {
+      bandages[index].addEventListener('click', function (event) {
+        selectedBandage = event.target.src;
+      })
+    }
+
+    for (let index = 0; index < holes.length; index += 1) {
+      holes[index].addEventListener('click', function (event) {
+        holes[index].src = selectedBandage;
+      })
+    }
+  </script>
+</body>
+
+</html>
+
+<!-- Accreding the author:
+  <a href="https://www.vecteezy.com/free-vector/ship-vector">Ship Vector Vectors by Vecteezy</a>
+  <a href="https://www.vecteezy.com/free-vector/band">Band Vectors by Vecteezy</a> -->
