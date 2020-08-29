@@ -95,8 +95,8 @@
     const quadrants = document.querySelectorAll('.quadrant');
     const sky = document.querySelector('.sky');
     const sun = 'img/sun.png';
-    const moon = 'img/moon.png';
     let position = -1;
+    let previousPosition;
 
     function changeSkyColor(position) {
       switch (position) {
@@ -111,17 +111,36 @@
           sky.classList.remove('midday');
           sky.classList.add('sunset');
           break;
+        case 3:
+          sky.classList.remove('sunset');
+          sky.classList.add('night');
+          break;
         default:
           break;
       }
     }
 
-    button.addEventListener('click', function () {
+    function handleSunAppearance(position) {
       const image = document.createElement('img');
       image.src = sun;
-      position = position > 1 ? 0 : position + 1;
+
+      if (position > -1) {
+        previousPosition = position - 1;
+
+        if (position > 0) {
+          quadrants[previousPosition].innerHTML = '';
+        }
+
+        if (position < 3) {
+          quadrants[position].appendChild(image);
+        }
+      }
+    }
+
+    button.addEventListener('click', function () {
+      position = position > 2 ? 0 : position + 1;
       changeSkyColor(position);
-      quadrants[position].appendChild(image);
+      handleSunAppearance(position);
     });
   </script>
 </body>
