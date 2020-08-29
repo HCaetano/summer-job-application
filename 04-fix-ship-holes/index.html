@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: auto;
+      width: 90%;
+    }
+
+    h1,
+    section {
+      margin: 25px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    section:first-of-type,
+    div {
+      background-size: contain;
+    }
+
+    section:first-of-type,
+    .bandages div:nth-child(1) {
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    section:first-of-type {
+      background-image: url(img/ship.jpg);
+      align-items: flex-end;
+      height: 500px;
+    }
+
+    section:last-of-type {
+      height: 60px;
+    }
+
+    div {
+      background-image: url(img/hole.png);
+      border-radius: 50%;
+      height: 50px;
+      margin-bottom: 40px;
+      width: 50px;
+    }
+
+    .bandages div:nth-child(1) {
+      background-image: url(img/green-bandage.png);
+    }
+
+    .bandages div:nth-child(2) {
+      background-image: url(img/red-bandage.png);
+    }
+
+    .bandages div:nth-child(3) {
+      background-image: url(img/pink-bandage.png);
+    }
+  </style>
+  <title>Fix the ship's holes</title>
+</head>
+
+<body>
+  <h1>Escolha um curativo e tape os buracos!</h1>
+  <section>
+    <div></div>
+    <div></div>
+    <div></div>
+  </section>
+  <section class="bandages">
+    <div></div>
+    <div></div>
+    <div></div>
+  </section>
+</body>
+
+</html>
+
+<!-- Accreding the author:
+  <a href="https://www.vecteezy.com/free-vector/ship-vector">Ship Vector Vectors by Vecteezy</a>
+  <a href="https://www.vecteezy.com/free-vector/band">Band Vectors by Vecteezy</a> -->
