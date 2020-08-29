@@ -10,14 +10,45 @@
       width: 90%;
     }
 
-    h1,
-    section {
-      margin: 25px;
-      padding: 10px;
-    }
-
     h1 {
       text-align: center;
+    }
+
+    section {
+      border: 1px solid aquamarine;
+      display: flex;
+      flex-direction: row;
+      margin: 10px auto;
+      width: 1200px;
+    }
+
+    section:first-of-type {
+      align-items: flex-end;
+      height: 500px;
+      justify-content: space-between;
+    }
+
+    section:last-of-type {
+      align-items: center;
+      height: 100px;
+      justify-content: space-evenly;
+    }
+
+    img:nth-of-type(2) {
+      align-self: flex-start;
+    }
+
+    img {
+      height: 100px;
+    }
+
+    .quadrant {
+      height: 200px;
+      width: 200px;
+    }
+
+    button {
+      padding: 10px;
     }
   </style>
   <title>Relógio solar</title>
@@ -25,6 +56,19 @@
 
 <body>
   <h1>Relógio solar</h1>
+  <section>
+    <img class="quadrant" src="" alt="Sun or moon rise">
+    <img class="quadrant" src="" alt="Sun or moon zenith">
+    <img class="quadrant" src="" alt="Sun or moon set">
+  </section>
+  <section>
+    <button>Avançar</button>
+    <img src="img/sundial.svg" alt="Sundial">
+    <div>
+      <label for="time">Relógio moderno:</label>
+      <input type="time" id="time">
+    </div>
+  </section>
 </body>
 
 </html>
