@@ -35,11 +35,16 @@
       justify-content: space-evenly;
     }
 
-    img:nth-of-type(2) {
+    .quadrant:nth-of-type(2) {
       align-self: flex-start;
     }
 
-    img {
+    .quadrant > img {
+      border-radius: 50%;
+      height: 200px;
+    }
+
+    section > img {
       height: 100px;
     }
 
@@ -70,6 +75,20 @@
       <input type="time" id="time">
     </div>
   </section>
+  <script>
+    const button = document.querySelector('button');
+    const quadrants = document.querySelectorAll('.quadrant');
+    const sun = 'img/sun.png';
+    const moon = 'img/moon.png';
+    let position = 0;
+
+    button.addEventListener('click', function () {
+      const image = document.createElement('img');
+      image.src = sun;
+      quadrants[position].appendChild(image);
+      position += 1;
+    })
+  </script>
 </body>
 
 </html>
