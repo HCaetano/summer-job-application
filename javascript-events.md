@@ -9,7 +9,7 @@
 ## Você será capaz de:
     
     - Modificar, de forma ~~interativa~~ dinâmica, aspectos da sua página (fonte, cores, propriedades de elementos);
-    - Utilizar elementos JavaScript como ```click```, ```mouseover```, ```mouseout``` e ```input```;
+    - Utilizar elementos **JavaScript** como ```click```, ```mouseover```, ```mouseout``` e ```input```;
     - Compreender o que é e utilizar o parâmetro ```target```.
 
 ## Conteúdos
