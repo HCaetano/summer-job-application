@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: auto;
+      width: 90%;
+    }
+
+    h1,
+    section {
+      margin: 25px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    section {
+      display: flex;
+      flex-direction: row;
+      height: 600px;
+    }
+
+    div,
+    img {
+      height: 100%;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    div:first-of-type {
+      width: 60%;
+    }
+
+    div:last-of-type {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 40%;
+    }
+
+    p {
+      align-items: center;
+      background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
+      border-radius: 10%;
+      display: flex;
+      font-size: 20px;
+      height: 100px;
+      justify-content: center;
+      width: 75%;
+    }
+  </style>
+  <title>Gato fofo</title>
+</head>
+
+<body>
+  <h1>Interaja comigo, pessoa!</h1>
+  <section>
+    <div>
+      <!-- Accreding the author: <a href="http://www.freepik.com">Designed by Freepik</a> -->
+      <img src="img/cat_01.jpg" alt="Cute cat in different positions">
+    </div>
+    <div>
+      <h2>Minhas falas</h2>
+      <p>"Vem brincar comigo!"</p>
+      <p>"Tô de olho em você, hein?"</p>
+      <p>"Joga o meu ratinho de pelúcia, pessoa!"</p>
+    </div>
+  </section>
+  <script>
+    const catDialogues = document.querySelectorAll('p');
+    const image = document.querySelector('img');
+
+    catDialogues[0].addEventListener('mouseover', function () {
+      image.src = 'img/cat_02.jpg';
+    });
+
+    catDialogues[1].addEventListener('mouseover', function () {
+      image.src = 'img/cat_03.jpg';
+    });
+
+    catDialogues[2].addEventListener('mouseover', function () {
+      image.src = 'img/cat_04.jpg';
+    });
+
+    for (let index = 0; index < catDialogues.length; index += 1) {
+      catDialogues[index].addEventListener('mouseout', function () {
+        image.src = 'img/cat_01.jpg';
+      });
+    }
+  </script>
+</body>
+
+</html>
