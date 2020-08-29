@@ -22,8 +22,9 @@
       width: 1200px;
     }
 
-    section:first-of-type {
+    .sky {
       align-items: flex-end;
+      background-color: black;
       height: 500px;
       justify-content: space-between;
     }
@@ -56,10 +57,10 @@
 
 <body>
   <h1>Relógio solar</h1>
-  <section>
-    <img class="quadrant" src="" alt="Sun or moon rise">
-    <img class="quadrant" src="" alt="Sun or moon zenith">
-    <img class="quadrant" src="" alt="Sun or moon set">
+  <section class="sky">
+    <div class="quadrant"></div>
+    <div class="quadrant"></div>
+    <div class="quadrant"></div>
   </section>
   <section>
     <button>Avançar</button>
