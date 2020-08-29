@@ -139,6 +139,8 @@
           quadrants[position].appendChild(image);
         }
       }
+
+      modernClock.value = '';
     }
 
     button.addEventListener('click', function () {
@@ -147,7 +149,7 @@
       handleSunAppearance(position);
     });
 
-    sundial.addEventListener('mouseover', function () {
+    function whatTimeIsIt(position) {
       switch (position) {
         case 0:
           modernClock.value = '06:00'
@@ -161,6 +163,10 @@
         default:
           break;
       }
+    }
+
+    sundial.addEventListener('mouseover', function () {
+      whatTimeIsIt(position);
     })
   </script>
 </body>
