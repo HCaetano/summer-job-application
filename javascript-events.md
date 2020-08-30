@@ -113,7 +113,9 @@
 
     Para ficarmos ainda melhores no conteúdo, que tal praticarmos um pouco mais? Você vai ter a oportunidade de: viajar no tempo, pintar partes da sua tela somente com o poder da palavra, interagir com um gato fofo :smiley_cat: e reparar o casco de um navio. Para isso, só precisaremos de duas coisas: imaginação e o seu novo superpoder: **eventos em JavaScript**.
 
-    Para os exercícios a seguir, utilize este documento HTML como ponto de partida. Cuide o conteúdo da tag ```style```, pois modificá-la pode fazer com que a estrutura fornecida pare de funcionar. 
+    1) Imagine você encontrou um artefato estranho, com um botão. A curiosade bate e você aperta o botão. Olhando ao redor, vê decorações de *Halloween*. Após alguns passos, vê um cartaz promovendo uma festa. Imediatamente, você percebe que a letra está diferente, esquisita e escorrida ~~, como se fosse sangue falso~~, bem no clima do momento. Cada vez que você apertar o botão, viajará no tempo e terá contato com formas diferentes de escrita, que refletem aquele momento da história em que você se encontra.
+
+    Você receberá um documento com dois parágrafos repletos de lorem ipsum, um botão para cada período/alteração do texto, e a estilização já pronta. Sua tarefa é criar eventos de clique que troquem a fonte do texto para as fontes fornecidas logo acima da *tag* ```title```. A escolha de qual fonte será associada a qual botão deixaremos por sua conta, mas testando você vai notar que algumas se encaixam melhores do que as outras. :wink:
 
     <!DOCTYPE html>
     <html lang="en">
@@ -123,23 +125,72 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             body {
-            margin: auto;
-            width: 80%;
+                margin: auto;
+                width: 80%;
             }
 
             h1,
             section {
-            text-align: center;
-            margin: 25px;
-            padding: 10px;
+                text-align: center;
+                margin: 25px;
+                padding: 10px;
+            }
+
+            button {
+                margin-right: 10px;
+                padding: 5px;
+            }
+
+            p {
+                font-size: 20px;
+                line-height: 20px;
+                text-align: justify;
             }
         </style>
+        <link href='https://fonts.googleapis.com/css?family=Butcherman' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Give You Glory' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Astloch' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Ewert' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+        <title>Tipos de escrita por época</title>
     </head>
 
     <body>
-        <script>
-        </script>
+    <h1>Tipos de escrita que você veria viajando no tempo</h1>
+    <section>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua Porttitor lacus luctus accumsan tortor posuere. Turpis cursus in hac habitasse platea dictumst.
+        Vulputate enim nulla aliquet porttitor lacus luctus. Amet facilisis magna etiam tempor orci. Et leo duis ut diam.
+        Mattis molestie a iaculis at erat pellentesque. Est ultricies integer quis auctor elit sed vulputate mi. Elementum
+        sagittis vitae et leo duis ut. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Proin nibh
+        nisl condimentum id venenatis a. Sed arcu non odio euismod lacinia. Commodo elit at imperdiet dui. Morbi tristique
+        senectus et netus. Amet est placerat in egestas erat. Scelerisque eleifend donec pretium vulputate sapien nec
+        sagittis. Dapibus ultrices in iaculis nunc sed. Odio pellentesque diam volutpat commodo sed egestas egestas. Morbi
+        tristique senectus et netus. Risus feugiat in ante metus dictum at.
+        </p>
+        <p>
+        Amet dictum sit amet justo donec. Ut consequat semper viverra nam libero justo laoreet sit amet. Purus in massa
+        tempor nec feugiat nisl pretium fusce id. Integer enim neque volutpat ac tincidunt vitae semper quis. Nunc sed
+        blandit libero volutpat sed. Dui id ornare arcu odio ut sem nulla. Non curabitur gravida arcu ac tortor dignissim
+        convallis aenean et. Consequat interdum varius sit amet mattis vulputate enim nulla. A diam sollicitudin tempor id
+        eu nisl nunc mi ipsum. Proin sagittis nisl rhoncus mattis. Viverra justo nec ultrices dui sapien. Tortor at risus
+        viverra adipiscing at in. Justo eget magna fermentum iaculis eu.
+        </p>
+    </section>
+    <section>
+        <button>Halloween</button>
+        <button>Velho oeste</button>
+        <button>Roma antiga</button>
+        <button>Quinta série</button>
+        <button>Europa, ano 1423</button>
+        <button>Futuro distópico</button>
+    </section>
+
+    <script></script>
     </body>
 
     </html>
-
+    
+    Note os links entre as *tags* ```style``` e ```title```. Eles servem para obter fontes especiais que serão necessárias nesta atividade. O que está escrito após "family=" é o **nome** da fonte e é este valor que deve ser utilizado na atividade. Em vez de usar ```elemento.style.fontFamily = 'Arial'```, use 'Butcherman', ok?
