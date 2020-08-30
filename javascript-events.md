@@ -20,8 +20,6 @@
 
 ## Conteúdos
 
-##### Tempo sugerido para realização: 80 minutos
-
     A seguir, aprenderemos a funcionalidade responsável por monitorar eventos a fim de garantir que eles disparem no momento certo, e não só conheceremos alguns, como também faremos nosso primeiro evento.
 
 ### Monitor de eventos
