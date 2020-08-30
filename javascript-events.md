@@ -112,3 +112,34 @@
     E aí, entendeu muito mais agora, não é mesmo? :smiley:
 
     Para ficarmos ainda melhores no conteúdo, que tal praticarmos um pouco mais? Você vai ter a oportunidade de: viajar no tempo, pintar partes da sua tela somente com o poder da palavra, interagir com um gato fofo :smiley_cat: e reparar o casco de um navio. Para isso, só precisaremos de duas coisas: imaginação e o seu novo superpoder: **eventos em JavaScript**.
+
+    Para os exercícios a seguir, utilize este documento HTML como ponto de partida. Cuide o conteúdo da tag ```style```, pois modificá-la pode fazer com que a estrutura fornecida pare de funcionar. 
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+            margin: auto;
+            width: 80%;
+            }
+
+            h1,
+            section {
+            text-align: center;
+            margin: 25px;
+            padding: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <script>
+        </script>
+    </body>
+
+    </html>
+
