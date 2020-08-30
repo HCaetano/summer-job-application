@@ -157,38 +157,38 @@
     </head>
 
     <body>
-    <h1>Tipos de escrita que você veria viajando no tempo</h1>
-    <section>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua Porttitor lacus luctus accumsan tortor posuere. Turpis cursus in hac habitasse platea dictumst.
-        Vulputate enim nulla aliquet porttitor lacus luctus. Amet facilisis magna etiam tempor orci. Et leo duis ut diam.
-        Mattis molestie a iaculis at erat pellentesque. Est ultricies integer quis auctor elit sed vulputate mi. Elementum
-        sagittis vitae et leo duis ut. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Proin nibh
-        nisl condimentum id venenatis a. Sed arcu non odio euismod lacinia. Commodo elit at imperdiet dui. Morbi tristique
-        senectus et netus. Amet est placerat in egestas erat. Scelerisque eleifend donec pretium vulputate sapien nec
-        sagittis. Dapibus ultrices in iaculis nunc sed. Odio pellentesque diam volutpat commodo sed egestas egestas. Morbi
-        tristique senectus et netus. Risus feugiat in ante metus dictum at.
-        </p>
-        <p>
-        Amet dictum sit amet justo donec. Ut consequat semper viverra nam libero justo laoreet sit amet. Purus in massa
-        tempor nec feugiat nisl pretium fusce id. Integer enim neque volutpat ac tincidunt vitae semper quis. Nunc sed
-        blandit libero volutpat sed. Dui id ornare arcu odio ut sem nulla. Non curabitur gravida arcu ac tortor dignissim
-        convallis aenean et. Consequat interdum varius sit amet mattis vulputate enim nulla. A diam sollicitudin tempor id
-        eu nisl nunc mi ipsum. Proin sagittis nisl rhoncus mattis. Viverra justo nec ultrices dui sapien. Tortor at risus
-        viverra adipiscing at in. Justo eget magna fermentum iaculis eu.
-        </p>
-    </section>
-    <section>
-        <button>Halloween</button>
-        <button>Velho oeste</button>
-        <button>Roma antiga</button>
-        <button>Quinta série</button>
-        <button>Europa, ano 1423</button>
-        <button>Futuro distópico</button>
-    </section>
+        <h1>Tipos de escrita que você veria viajando no tempo</h1>
+        <section>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua Porttitor lacus luctus accumsan tortor posuere. Turpis cursus in hac habitasse platea dictumst.
+            Vulputate enim nulla aliquet porttitor lacus luctus. Amet facilisis magna etiam tempor orci. Et leo duis ut diam.
+            Mattis molestie a iaculis at erat pellentesque. Est ultricies integer quis auctor elit sed vulputate mi. Elementum
+            sagittis vitae et leo duis ut. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Proin nibh
+            nisl condimentum id venenatis a. Sed arcu non odio euismod lacinia. Commodo elit at imperdiet dui. Morbi tristique
+            senectus et netus. Amet est placerat in egestas erat. Scelerisque eleifend donec pretium vulputate sapien nec
+            sagittis. Dapibus ultrices in iaculis nunc sed. Odio pellentesque diam volutpat commodo sed egestas egestas. Morbi
+            tristique senectus et netus. Risus feugiat in ante metus dictum at.
+            </p>
+            <p>
+            Amet dictum sit amet justo donec. Ut consequat semper viverra nam libero justo laoreet sit amet. Purus in massa
+            tempor nec feugiat nisl pretium fusce id. Integer enim neque volutpat ac tincidunt vitae semper quis. Nunc sed
+            blandit libero volutpat sed. Dui id ornare arcu odio ut sem nulla. Non curabitur gravida arcu ac tortor dignissim
+            convallis aenean et. Consequat interdum varius sit amet mattis vulputate enim nulla. A diam sollicitudin tempor id
+            eu nisl nunc mi ipsum. Proin sagittis nisl rhoncus mattis. Viverra justo nec ultrices dui sapien. Tortor at risus
+            viverra adipiscing at in. Justo eget magna fermentum iaculis eu.
+            </p>
+        </section>
+        <section>
+            <button>Halloween</button>
+            <button>Velho oeste</button>
+            <button>Roma antiga</button>
+            <button>Quinta série</button>
+            <button>Europa, ano 1423</button>
+            <button>Futuro distópico</button>
+        </section>
 
-    <script></script>
+        <script></script>
     </body>
 
     </html>
@@ -438,3 +438,120 @@
         <a href="https://www.vecteezy.com/free-vector/ship-vector">Ship Vector Vectors by Vecteezy</a>
         <a href="https://www.vecteezy.com/free-vector/band">Band Vectors by Vecteezy</a> -->
     </html>
+
+### Bônus
+
+    Você sabe o que é um relógio solar? Em tempos passados, antes da invenção de relógios mecânicos, media-se a passagem do tempo durante o dia com a posição do Sol no céu :sunny:. A medida que o Sol cruza o céu, seu ângulo muda a sombra produzida por ele. O relógio solar possui um objeto em seu centro, podendo ser uma vareta ou uma lâmina triangular, e pode-se medir a hora aproximada pela sombra deste objeto, que fica em cima de um dos 12 números que indicam as horas. Para ficar mais claro, veja uma imagem:
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Melbourne_sundial_at_Flagstaff_Gardens.JPG/1280px-Melbourne_sundial_at_Flagstaff_Gardens.JPG" alt="Relógio solar" width="631" height="400"/>
+
+    Faremos algo inspirado em um relógio solar. Imagine que você ficou sabendo da existência deste curioso objeto e, na sua segunda oportunidade de férias, decidiu não arriscar com barcos e foi para a Austrália conhecer um autêntico relógio deste tipo. Chegando lá, visitou o objeto quatro vezes, a fim de ver a projeção da sombra no relógio: ao nascer do Sol, às 6 da manhã; ao meio-dia; ao por do Sol, às 6 da tarde; e à meia-noite. Pôde notar que a sombra projetada pela lâmina residia aproximadamente na hora certa, exceto à noite, em que, como é de se esperar, não havia sombra e nem horário marcado.
+
+    Você receberá um documento com uma ```section``` com classe "sky" cuja cor de fundo é controlada pela classe "night" e é preta, para simbolizar o céu durante a noite. Secretamente, esta ```section``` possui três ```div```s vazias: uma em cada canto inferior e outra no meio da ```section```, colada ao topo deste elemento. Estas ```div```s simbolizam a posição do Sol ao longo dia: canto inferior esquerdo, 6 da manhã; topo, meio-dia; canto inferior direito, 6 da tarde. 
+
+    Na segunda ```section```, encontram-se um botão, uma imagem que representa o relógio solar, e um ```input``` do tipo ```time``` que representa um relógio moderno :watch:. O botão, ao ser clicado pela primeira vez, mostrará uma imagem do Sol na ```div``` mais à esquerda, o nascer do dia. Na segunda vez, removerá o Sol da primeira ```div``` e o mostrará na segunda, no topo. Na terceira vez, removerá o Sol da posição anterior e o mostrará na ```div``` mais à direita. Em um quarto clique, o Sol deverá desaparecer do céu, pois anoiteceu. Em um quinto clique, é um novo dia e o Sol nascerá novamente. E assim por diante, o ciclo eterno de nascer e por do Sol.
+
+    É importante notar que o céu muda ao longo dia e da noite. Sendo assim, ao nascer do Sol, a ```section``` de classe "sky" deve receber a classe "sunrise", que possui um gradiente de cores que tenta simular o espetáculo do nascer do Sol. Ao meio dia, deve ter esta classe trocada por "midday". Ao por do Sol, deve perder esta classe e ganhar aquela chamada "sunset", que também possui um gradiente de cores. Quando anoitecer, a classe "night" deve retornar ao elemento ```section``` de classe "sky". É importante ressaltar que a classe "sky" deve sempre permanecer, pois ela contém estilo próprio e, se removida, quebrará a página. Note que as ```div```s onde o Sol aparece possuem uma classe ("quadrant"), então use isso a seu favor quando for selecioná-las.
+
+    Ao passar o mouse em cima da imagem do relógio solar, o ```input``` do tipo ```time``` terá o seu atributo ```value``` alterado para mostrar um horário entre as seguintes opções: '06:00', '12:00', '18:00', dependendo da posição do Sol. Se o Sol avançar para outra posição no céu, o atributo ```value``` deste ```input``` deve ficar vazio. Lembrando que à noite não deve ser possível descobrir as horas no relógio solar, então o valor do relógio moderno deve permanecer vazio.
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: auto;
+                width: 90%;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            section {
+                border: 1px solid aquamarine;
+                display: flex;
+                flex-direction: row;
+                margin: 10px auto;
+                width: 1200px;
+            }
+
+            .sky {
+                align-items: flex-end;
+                height: 500px;
+                justify-content: space-between;
+            }
+
+            section:last-of-type {
+                align-items: center;
+                height: 100px;
+                justify-content: space-evenly;
+            }
+
+            .quadrant:nth-of-type(2) {
+                align-self: flex-start;
+            }
+
+            .quadrant>img {
+                border-radius: 50%;
+                height: 200px;
+            }
+
+            section>img {
+                height: 100px;
+            }
+
+            .quadrant {
+                height: 200px;
+                width: 200px;
+            }
+
+            button {
+                padding: 10px;
+            }
+
+            .sunrise {
+                background: linear-gradient(to top, #58151A, #BC2909, #BA6D09, #71A8EE, #3072EB, #1552C6, #0542A8);
+            }
+
+            .sunset {
+                background: linear-gradient(to top, #040308, #AD4A28, #DD723C, #FC7001, #DCB697, #9BA5AE, #3E5879, #020B1A);
+            }
+
+            .night {
+                background-color: black;
+            }
+
+            .midday {
+                background-color: rgb(221, 245, 255)
+            }
+        </style>
+        <title>Relógio solar</title>
+    </head>
+
+    <body>
+        <h1>Relógio solar</h1>
+        <section class="sky night">
+            <div class="quadrant"></div>
+            <div class="quadrant"></div>
+            <div class="quadrant"></div>
+        </section>
+        <section>
+            <button>Avançar</button>
+            <img src="https://i.ibb.co/Bnxrb6z/sundial.png" alt="Sundial">
+            <div>
+            <label for="time">Relógio moderno:</label>
+            <input type="time" id="time">
+            </div>
+        </section>
+        <script></script>
+    </body>
+
+    </html>
+
+    A imagem do sol que você deve utilizar é esta: <img src="https://i.ibb.co/MhqWgJd/sun.png" alt="Sun">.
+
+    Dica: você pode criar uma variável numérica para guardar a posição do Sol no céu. Assim, ao clicar no botão, você pode incrementá-la em ```1```. A partir de então, poderá usá-la como índice caso você decida tratar as ```divs``` que guardam as posições no céu como um array.
