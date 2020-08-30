@@ -194,3 +194,77 @@
     </html>
     
     Note os links entre as *tags* ```style``` e ```title```. Eles servem para obter fontes especiais que serão necessárias nesta atividade. O que está escrito após "family=" é o **nome** da fonte e é este valor que deve ser utilizado na atividade. Em vez de usar ```elemento.style.fontFamily = 'Arial'```, use 'Butcherman', ok?
+
+    2) Agora você ganhará o poder de, ao escrever o nome de cores em inglês, fazer com que os quadros na sua tela fiquem preenchidos com esta cor.
+
+    Você receberá um documento com quatro ```div```s vazias delimitadas por bordas pretas. Cada uma delas possui logo abaixo de si um campo de ```input``` do tipo ```text``` no qual você deverá digitar os nomes das cores. Feito isto, o ```input``` alterará o valor de ```background-color``` da ```div``` logo acima dele próprio a medida que você for digitando. Teste cores legais como Aquamarine, Maroon e MidnightBlue.
+    
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: auto;
+                width: 80%;
+            }
+
+            h1,
+            section {
+                text-align: center;
+                margin: 25px;
+                padding: 10px;
+            }
+
+            section {
+                display: flex;
+                flex-flow: row;
+                justify-content: space-evenly;
+            }
+
+            .color-block {
+                border: 1px solid black;
+                height: 250px;
+                width: 250px;
+            }
+
+            button,
+            div:last-of-type {
+                padding: 5px;
+            }
+        </style>
+        <title>Gerador de cores</title>
+    </head>
+
+    <body>
+        <h1>Este é o gerador de cores!</h1>
+        <section>
+            <div class="color-block"></div>
+            <div class="color-block"></div>
+            <div class="color-block"></div>
+            <div class="color-block"></div>
+        </section>
+        <section>
+            <div>
+            <label for="insert-color-1">Escolha uma cor:</label>
+            <input type="text" id="insert-color-1">
+            </div>
+            <div>
+            <label for="insert-color-2">Escolha uma cor:</label>
+            <input type="text" id="insert-color-2">
+            </div>
+            <div>
+            <label for="insert-color-3">Escolha uma cor:</label>
+            <input type="text" id="insert-color-3">
+            </div>
+            <div>
+            <label for="insert-color-4">Escolha uma cor:</label>
+            <input type="text" id="insert-color-4">
+            </div>
+        </section>
+        <script></script>
+    </body>
+
+    </html>
