@@ -106,3 +106,9 @@
     Depois de ~~termos a ajuda do nosso amigo controle remoto~~ termos estudado e praticado o conteúdo, vamos mandar bem demais na aula ao vivo!
 
     Aguarde a facilitação enviar o link para a aula no Slack e vamos decolar juntos!
+
+### Exercícios
+
+    E aí, entendeu muito mais agora, não é mesmo? :smiley:
+
+    Para ficarmos ainda melhores no conteúdo, que tal praticarmos um pouco mais? Você vai ter a oportunidade de: viajar no tempo, pintar partes da sua tela somente com o poder da palavra, interagir com um gato fofo :smiley_cat: e reparar o casco de um navio. Para isso, só precisaremos de duas coisas: imaginação e o seu novo superpoder: **eventos em JavaScript**.
