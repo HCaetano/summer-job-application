@@ -22,7 +22,7 @@
 
 ##### Tempo sugerido para realização: 80 minutos
 
-    A seguir, aprenderemos a funcionalidade responsável por monitorar eventos a fim de garantir que eles disparem no momento certo, e não só conheceremos alguns, como também faremos nosso primeiro evento. Yay!
+    A seguir, aprenderemos a funcionalidade responsável por monitorar eventos a fim de garantir que eles disparem no momento certo, e não só conheceremos alguns, como também faremos nosso primeiro evento.
 
 ### Monitor de eventos
 
@@ -69,6 +69,14 @@
         button.addEventListener('click', function () {
             alert('Botão clicado!');
         });
+
+    Você acabou de ver o seu primeiro evento em ação! Você pode ter achado simples, mas toda jornada tem um começo. :wink:
+
+### Eventos
+
+    Pare e pense em uma definição para eventos. Pode ser um bom exercício para ajudar a consolidar o entendimento sobre este conteúdo. Quem sabe você pode trocar uma ideia com outros colegas sobre o que vocês entenderam a respeito?
+
+    Levando em consideração o que vimos até aqui, podemos entender que eventos são ações resultantes de interações da pessoa usuária com a nossa página. Sua gestão é realizada pela função ```addEventListener```, quando corretamente associada a um elemento HTML. Eventos possuem nomes que descrevem como serão disparados, tais como ```click``` e ```mouseover``` e necessitam de uma função para especificar o seu comportamento.
 
     Parece confuso? Não se preocupe, vamos praticar agora para você chegar com tudo na aula ao vivo! :heart_eyes:
 
