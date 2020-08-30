@@ -268,3 +268,92 @@
     </body>
 
     </html>
+
+    3) Você acolheu um gato fofinho que parecia não tinha lar. Depois de muito carinho, percebeu que ele estava sentado lhe dirigindo o olhar. Em seguida, ele começa a falar! Não só isso, ele também lhe fez alguns pedidos!
+
+    Você receberá um documento com uma imagem inicial do gato misterioso em uma ```section```. Ao lado desta, há outra ```section```, que contém três sentenças proferidas pelo gato apresentadas em elementos ```p```. Ao passar o mouse sobre estas senteças, o atributo ```source``` da imagem inicial deve ser alterada para uma das outras três imagens do gato disponibilizadas. A nova imagem só deve permanecer visível enquanto o mouse estiver sobre o elemento que contém a sentença. Ao retirar o mouse de cima da sentença, a imagem inicial do gato sentado deve ser restaurada. Dica: use 'mouseover'.
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: auto;
+                width: 90%;
+            }
+
+            h1,
+            section {
+                margin: 25px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            section {
+                display: flex;
+                flex-direction: row;
+                height: 600px;
+            }
+
+            div,
+            img {
+                height: 100%;
+            }
+
+            img {
+                max-width: 100%;
+            }
+
+            div:first-of-type {
+                width: 60%;
+            }
+
+            div:last-of-type {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 40%;
+            }
+
+            p {
+                align-items: center;
+                background-image: linear-gradient(to right, #a1c4fd, #c2e9fb);
+                border-radius: 10%;
+                display: flex;
+                font-size: 20px;
+                height: 100px;
+                justify-content: center;
+                width: 75%;
+            }
+        </style>
+        <title>Gato fofo</title>
+    </head>
+
+    <body>
+        <h1>Interaja comigo, pessoa!</h1>
+        <section>
+            <div>
+            <!-- Accreding the author: <a href="http://www.freepik.com">Designed by Freepik</a> -->
+            <img src="https://i.ibb.co/HHYrw6D/cats-02.jpg" alt="Cute cat in different positions">
+            </div>
+            <div>
+            <h2>Minhas falas</h2>
+            <p>"Vem brincar comigo!"</p>
+            <p>"Tô de olho em você, hein?"</p>
+            <p>"Joga o meu ratinho de pelúcia, pessoa!"</p>
+            </div>
+        </section>
+        <script></script>
+    </body>
+
+    </html>
+
+    A seguir, encontra-se uma lista com as outras três imagens do gato misterioso.
+
+    <img src="https://i.ibb.co/Bz9fspD/cats-01.jpg" alt="Cute cat in different positions">
+    <img src="https://i.ibb.co/y5wdwpf/cats-03.jpg" alt="Cute cat in different positions">
+    <img src="https://i.ibb.co/4gGnp3r/cats-04.jpg" alt="Cute cat in different positions">
