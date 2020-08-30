@@ -357,3 +357,84 @@
     <img src="https://i.ibb.co/Bz9fspD/cats-01.jpg" alt="Cute cat in different positions">
     <img src="https://i.ibb.co/y5wdwpf/cats-03.jpg" alt="Cute cat in different positions">
     <img src="https://i.ibb.co/4gGnp3r/cats-04.jpg" alt="Cute cat in different positions">
+
+    4) Chegou a hora das férias. Você trabalhou duro no seu primeiro ano como pessoa desenvolvedora e fez por merecer um belo descanso. Você viu online que está na moda passear de barco pelo Caribe e decidiu experimentar. Pesquisou bastante online e encontrou um lindo barquinho por um bom preço e começou a contar os dias para sair por aí desbravando os mares cristalinos da América Central. Chegando lá, no entanto, que azar! O navio tem três furos enormes em seu casco. No atracadouro onde se encontra o se navio, você encontrou uma caixa chamativa. Nela, encontrou três curativos e um bilhete: "Eles são mágicos! Tapam qualquer buraco". Meio rindo, mas meio no desespero, você decide colar os adesivos no navio e magicamente os buracos foram tapados!
+
+    Você receberá um documento com a imagem de um navio que, por sua vez, possui sobreposto a si três imagens de furos em seu casco. O navio é a imagem de fundo de uma ```section``` e os curativos ficam em outra ```section```. 
+    
+    Dicas: 
+        - Exceto pelo navio, as imagens são todas elementos ```img``` com um atributo ```source```. Note que ```holes``` e ```bandages``` são **classes**, use isto a seu favor na hora de selecioná-los; :wink
+        - Quem sabe você possa guardar o ```src``` da imagem da bandagem clicada em uma variável ~~selectedBandage~~? Aí, ao clicar em um dos elementos ```hole``` você possa trocar o conteúdo do ```src``` dele pelo que está contido na variável ~~selectedBandage~~.
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                margin: auto;
+                width: 90%;
+            }
+
+            h1,
+            section {
+                margin: 25px;
+                padding: 10px;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            section {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            section:first-of-type {
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-image: url(https://i.ibb.co/BcV5VZQ/ship.jpg);
+                align-items: flex-end;
+                height: 500px;
+            }
+
+            section:last-of-type {
+                height: 60px;
+            }
+
+            .hole {
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                margin-bottom: 40px;
+            }
+
+            img {
+                width: 60px;
+            }
+        </style>
+        <title>Conserte os buracos do navio</title>
+    </head>
+
+    <body>
+        <h1>Escolha um curativo e tape os buracos!</h1>
+        <section>
+            <img class="hole" src="https://i.ibb.co/LYFgssT/hole.png" alt="Hole in ship's hull">
+            <img class="hole" src="https://i.ibb.co/LYFgssT/hole.png" alt="Hole in ship's hull">
+            <img class="hole" src="https://i.ibb.co/LYFgssT/hole.png" alt="Hole in ship's hull">
+        </section>
+        <section class="bandages">
+            <img src="https://i.ibb.co/2hvX3z8/green-bandage.png" alt="Green bandage">
+            <img src="https://i.ibb.co/0F6k8FJ/red-bandage.png" alt="Red bandage">
+            <img src="https://i.ibb.co/3RqMP1W/violet-bandage.png" alt="Violet bandage">
+        </section>
+        <script></script>
+    </body>
+        <!-- Accrediting the author:
+        <a href="https://www.vecteezy.com/free-vector/ship-vector">Ship Vector Vectors by Vecteezy</a>
+        <a href="https://www.vecteezy.com/free-vector/band">Band Vectors by Vecteezy</a> -->
+    </html>
