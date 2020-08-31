@@ -332,7 +332,7 @@ Instruções: Você receberá um documento com uma imagem inicial do gato mister
   <section>
     <div>
       <!-- Accreding the author: <a href="http://www.freepik.com">Designed by Freepik</a> -->
-      <img src="https://i.ibb.co/HHYrw6D/cats-02.jpg" alt="Cute cat in different positions">
+      <img src="https://shorturl.at/chls2" alt="Cute cat in different positions">
     </div>
     <div>
       <h2>Minhas falas</h2>
@@ -347,9 +347,9 @@ Instruções: Você receberá um documento com uma imagem inicial do gato mister
 
 A seguir, encontra-se uma lista com as outras três imagens do gato misterioso.
 
-<img src="https://i.ibb.co/Bz9fspD/cats-01.jpg" alt="Cute cat in different positions">
-<img src="https://i.ibb.co/y5wdwpf/cats-03.jpg" alt="Cute cat in different positions">
-<img src="https://i.ibb.co/4gGnp3r/cats-04.jpg" alt="Cute cat in different positions">
+<img src="https://shorturl.at/hzBR5" alt="Cute cat in different positions">
+<img src="https://shorturl.at/ajlwK" alt="Cute cat in different positions">
+<img src="https://shorturl.at/moAB0" alt="Cute cat in different positions">
 
 4) Chegou a hora das férias. Você trabalhou duro no seu primeiro ano como pessoa desenvolvedora e fez por merecer um belo descanso. Você viu online que está na moda passear de barco pelo Caribe e decidiu experimentar. Pesquisou bastante online e encontrou um lindo barquinho por um bom preço e começou a contar os dias para sair por aí desbravando os mares cristalinos da América Central. Chegando lá, no entanto, que azar! O navio tem três furos enormes em seu casco. No atracadouro onde se encontra o se navio, você encontrou uma caixa chamativa. Nela, encontrou três curativos e um bilhete: "Eles são mágicos! Tapam qualquer buraco". Meio rindo, mas meio no desespero, você decide colar os adesivos no navio e magicamente os buracos foram tapados!
 
@@ -389,7 +389,7 @@ Dicas:
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-      background-image: url(https://i.ibb.co/BcV5VZQ/ship.jpg);
+      background-image: url(https://shorturl.at/biuY2);
       align-items: flex-end;
       height: 500px;
     }
@@ -414,14 +414,14 @@ Dicas:
 <body>
   <h1>Escolha um curativo e tape os buracos!</h1>
   <section>
-    <img class="hole" src="https://i.ibb.co/LYFgssT/hole.png" alt="Hole in ship's hull">
-    <img class="hole" src="https://i.ibb.co/LYFgssT/hole.png" alt="Hole in ship's hull">
-    <img class="hole" src="https://i.ibb.co/LYFgssT/hole.png" alt="Hole in ship's hull">
+    <img class="hole" src="https://shorturl.at/fCDGU" alt="Hole in ship's hull">
+    <img class="hole" src="https://shorturl.at/fCDGU" alt="Hole in ship's hull">
+    <img class="hole" src="https://shorturl.at/fCDGU" alt="Hole in ship's hull">
   </section>
   <section class="bandages">
-    <img src="https://i.ibb.co/2hvX3z8/green-bandage.png" alt="Green bandage">
-    <img src="https://i.ibb.co/0F6k8FJ/red-bandage.png" alt="Red bandage">
-    <img src="https://i.ibb.co/3RqMP1W/violet-bandage.png" alt="Violet bandage">
+    <img src="https://shorturl.at/pEGL0" alt="Green bandage">
+    <img src="https://shorturl.at/hnvFM" alt="Red bandage">
+    <img src="https://shorturl.at/qNQRW" alt="Violet bandage">
   </section>
   <script></script>
 </body>
@@ -530,7 +530,7 @@ Ao passar o *mouse* em cima da imagem do relógio solar, o ```input``` do tipo `
   </section>
   <section>
     <button>Avançar</button>
-    <img src="https://i.ibb.co/Bnxrb6z/sundial.png" alt="Sundial">
+    <img src="https://shorturl.at/xCEL1" alt="Sundial">
     <div>
       <label for="time">Relógio moderno:</label>
       <input type="time" id="time">
@@ -540,6 +540,6 @@ Ao passar o *mouse* em cima da imagem do relógio solar, o ```input``` do tipo `
 </body>
 </html>
 
-A imagem do sol que você deve utilizar é esta: <img src="https://i.ibb.co/MhqWgJd/sun.png" alt="Sun">.
+A imagem do sol que você deve utilizar é esta: <img src="https://shorturl.at/boyGV" alt="Sun">.
 
 Dica: você pode criar uma variável numérica para guardar a posição do Sol no céu. Assim, ao clicar no botão, você pode incrementá-la em ```1```. A partir de então, poderá usá-la como índice caso você decida tratar as ```divs``` que guardam as posições no céu como um array.

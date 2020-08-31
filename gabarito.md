@@ -276,7 +276,7 @@
     <section>
       <div>
         <!-- Accreding the author: <a href="http://www.freepik.com">Designed by Freepik</a> -->
-        <img src="https://i.ibb.co/HHYrw6D/cats-02.jpg" alt="Cute cat in different positions">
+        <img src="https://shorturl.at/chls2" alt="Cute cat in different positions">
       </div>
       <div>
         <h2>Minhas falas</h2>
@@ -290,20 +290,20 @@
       const image = document.querySelector('img');
 
       catDialogues[0].addEventListener('mouseover', function () {
-        image.src = 'https://i.ibb.co/Bz9fspD/cats-01.jpg';
+        image.src = 'https://shorturl.at/hzBR5';
       });
 
       catDialogues[1].addEventListener('mouseover', function () {
-        image.src = 'https://i.ibb.co/y5wdwpf/cats-03.jpg';
+        image.src = 'https://shorturl.at/ajlwK';
       });
 
       catDialogues[2].addEventListener('mouseover', function () {
-        image.src = 'https://i.ibb.co/4gGnp3r/cats-04.jpg';
+        image.src = 'https://shorturl.at/moAB0';
       });
 
       for (let index = 0; index < catDialogues.length; index += 1) {
         catDialogues[index].addEventListener('mouseout', function () {
-          image.src = 'https://i.ibb.co/HHYrw6D/cats-02.jpg';
+          image.src = 'https://shorturl.at/chls2';
         });
       }
     </script>
@@ -350,7 +350,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
-        background-image: url(https://i.ibb.co/BcV5VZQ/ship.jpg);
+        background-image: url(https://shorturl.at/biuY2);
         align-items: flex-end;
         height: 500px;
       }
@@ -375,14 +375,14 @@
   <body>
     <h1>Escolha um curativo e tape os buracos!</h1>
     <section>
-      <img class="hole" src="https://i.ibb.co/LYFgssT/hole.png" alt="Hole in ship's hull">
-      <img class="hole" src="https://i.ibb.co/LYFgssT/hole.png" alt="Hole in ship's hull">
-      <img class="hole" src="https://i.ibb.co/LYFgssT/hole.png" alt="Hole in ship's hull">
+      <img class="hole" src="https://shorturl.at/fCDGU" alt="Hole in ship's hull">
+      <img class="hole" src="https://shorturl.at/fCDGU" alt="Hole in ship's hull">
+      <img class="hole" src="https://shorturl.at/fCDGU" alt="Hole in ship's hull">
     </section>
     <section class="bandages">
-      <img src="https://i.ibb.co/2hvX3z8/green-bandage.png" alt="Green bandage">
-      <img src="https://i.ibb.co/0F6k8FJ/red-bandage.png" alt="Red bandage">
-      <img src="https://i.ibb.co/3RqMP1W/violet-bandage.png" alt="Violet bandage">
+      <img src="https://shorturl.at/pEGL0" alt="Green bandage">
+      <img src="https://shorturl.at/hnvFM" alt="Red bandage">
+      <img src="https://shorturl.at/qNQRW" alt="Violet bandage">
     </section>
     <script>
       const holes = document.querySelectorAll('.hole');
@@ -507,7 +507,7 @@
     </section>
     <section>
       <button>Avançar</button>
-      <img src="https://i.ibb.co/Bnxrb6z/sundial.png" alt="Sundial">
+      <img src="https://shorturl.at/xCEL1" alt="Sundial">
       <div>
         <label for="time">Relógio moderno:</label>
         <input type="time" id="time">
@@ -519,7 +519,7 @@
       const sky = document.querySelector('.sky');
       const sundial = document.querySelector('section > img');
       const modernClock = document.querySelector('input');
-      const sun = 'https://i.ibb.co/MhqWgJd/sun.png';
+      const sun = 'https://shorturl.at/boyGV';
       let position = -1;
       let previousPosition;
 
