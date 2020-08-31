@@ -12,7 +12,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,7 +47,6 @@
   <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
   <title>Tipos de escrita por época</title>
 </head>
-
 <body>
   <h1>Tipos de escrita que você veria viajando no tempo</h1>
   <section>
@@ -80,7 +78,6 @@
     <button>Europa, ano 1423</button>
     <button>Futuro distópico</button>
   </section>
-
   <script>
     const textSection = document.querySelector('section');
     const buttons = document.querySelectorAll('button');
@@ -105,7 +102,6 @@
     })
   </script>
 </body>
-
 </html>
 
 ## Exercício 2
@@ -119,7 +115,6 @@
 ### Solução:
   <!DOCTYPE html>
   <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -155,7 +150,6 @@
     </style>
     <title>Gerador de cores</title>
   </head>
-
   <body>
     <h1>Este é o gerador de cores!</h1>
     <section>
@@ -207,7 +201,6 @@
       });
     </script>
   </body>
-
   </html>
 
 ## Exercício 3
@@ -222,7 +215,6 @@
 
   <!DOCTYPE html>
   <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -279,7 +271,6 @@
     </style>
     <title>Gato fofo</title>
   </head>
-
   <body>
     <h1>Interaja comigo, pessoa!</h1>
     <section>
@@ -317,9 +308,7 @@
       }
     </script>
   </body>
-
   </html>
-    
 
 ## Exercício 4
 
@@ -333,7 +322,6 @@
 
   <!DOCTYPE html>
   <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -384,7 +372,6 @@
     </style>
     <title>Conserte os buracos do navio</title>
   </head>
-
   <body>
     <h1>Escolha um curativo e tape os buracos!</h1>
     <section>
@@ -438,7 +425,6 @@
 
   <!DOCTYPE html>
   <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -512,7 +498,6 @@
     </style>
     <title>Relógio solar</title>
   </head>
-
   <body>
     <h1>Relógio solar</h1>
     <section class="sky night">
@@ -606,5 +591,4 @@
       })
     </script>
   </body>
-
   </html>

@@ -50,7 +50,6 @@ Veremos ela em ação a seguir. Crie um documento HTML simples e substitua o ele
 
 <body>
   <button>Clique aqui!</button>
-
   <script>
       const button = document.querySelector('button');
 
@@ -123,7 +122,6 @@ Instruções: Você receberá um documento com dois parágrafos repletos de lore
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -159,7 +157,6 @@ Instruções: Você receberá um documento com dois parágrafos repletos de lore
   <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
   <title>Tipos de escrita por época</title>
 </head>
-
 <body>
   <h1>Tipos de escrita que você veria viajando no tempo</h1>
   <section>
@@ -191,10 +188,8 @@ Instruções: Você receberá um documento com dois parágrafos repletos de lore
     <button>Europa, ano 1423</button>
     <button>Futuro distópico</button>
   </section>
-
   <script></script>
 </body>
-
 </html>
 
 Note os links entre as *tags* ```style``` e ```title```. Eles servem para obter fontes especiais que serão necessárias nesta atividade. O que está escrito após "family=" é o **nome** da fonte e é este valor que deve ser utilizado na atividade. Em vez de usar ```elemento.style.fontFamily = 'Arial'```, use 'Butcherman', ok?
@@ -205,7 +200,6 @@ Instruções: Você receberá um documento com quatro ```div```s vazias delimita
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -241,7 +235,6 @@ Instruções: Você receberá um documento com quatro ```div```s vazias delimita
   </style>
   <title>Gerador de cores</title>
 </head>
-
 <body>
   <h1>Este é o gerador de cores!</h1>
   <section>
@@ -270,7 +263,6 @@ Instruções: Você receberá um documento com quatro ```div```s vazias delimita
   </section>
   <script></script>
 </body>
-
 </html>
 
 3) Você acolheu um gato fofinho que parecia não ter lar. Depois de muito carinho, percebeu que ele estava sentado lhe dirigindo o olhar. Em seguida, ele começa a falar! Não só isso, ele também lhe fez alguns pedidos!
@@ -279,7 +271,6 @@ Instruções: Você receberá um documento com uma imagem inicial do gato mister
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -336,7 +327,6 @@ Instruções: Você receberá um documento com uma imagem inicial do gato mister
   </style>
   <title>Gato fofo</title>
 </head>
-
 <body>
   <h1>Interaja comigo, pessoa!</h1>
   <section>
@@ -353,7 +343,6 @@ Instruções: Você receberá um documento com uma imagem inicial do gato mister
   </section>
   <script></script>
 </body>
-
 </html>
 
 A seguir, encontra-se uma lista com as outras três imagens do gato misterioso.
@@ -372,7 +361,6 @@ Dicas:
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -423,7 +411,6 @@ Dicas:
   </style>
   <title>Conserte os buracos do navio</title>
 </head>
-
 <body>
   <h1>Escolha um curativo e tape os buracos!</h1>
   <section>
@@ -461,7 +448,6 @@ Ao passar o *mouse* em cima da imagem do relógio solar, o ```input``` do tipo `
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -535,7 +521,6 @@ Ao passar o *mouse* em cima da imagem do relógio solar, o ```input``` do tipo `
   </style>
   <title>Relógio solar</title>
 </head>
-
 <body>
   <h1>Relógio solar</h1>
   <section class="sky night">
@@ -553,7 +538,6 @@ Ao passar o *mouse* em cima da imagem do relógio solar, o ```input``` do tipo `
   </section>
   <script></script>
 </body>
-
 </html>
 
 A imagem do sol que você deve utilizar é esta: <img src="https://i.ibb.co/MhqWgJd/sun.png" alt="Sun">.
