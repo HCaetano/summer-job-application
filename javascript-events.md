@@ -281,7 +281,7 @@ Agora você ganhará o poder de, ao escrever o nome de cores em inglês, fazer c
 
 Você acolheu um gato fofinho que parecia não ter lar. Depois de muito carinho, percebeu que ele estava sentado lhe dirigindo o olhar. Em seguida, ele começa a falar! Não só isso, ele também lhe fez alguns pedidos!
 
-**Instruções**: Você receberá um documento com uma imagem inicial do gato misterioso em uma ```section```. Ao lado desta, há outra ```section```, que contém três sentenças proferidas pelo gato apresentadas em elementos ```p```. Ao passar o *mouse* sobre estas sentenças, o atributo ```source``` da imagem inicial deve ser alterada para uma das outras três imagens do gato disponibilizadas. A nova imagem só deve permanecer visível enquanto o *mouse* estiver sobre o elemento que contém a sentença. Ao retirar o *mouse* de cima da sentença, a imagem inicial do gato sentado deve ser restaurada. Dica: use 'mouseover'.
+**Instruções**: Você receberá um documento com uma imagem inicial do gato misterioso em uma ```section```. Ao lado desta, há outra ```section```, que contém três sentenças proferidas pelo gato apresentadas em elementos ```p```. Ao passar o *mouse* sobre estas sentenças, o atributo ```source``` da imagem inicial deve ser alterada para uma das outras três imagens do gato disponibilizadas. A nova imagem só deve permanecer visível enquanto o *mouse* estiver sobre o elemento que contém a sentença. Ao retirar o *mouse* de cima da sentença, a imagem inicial do gato sentado deve ser restaurada. Dica: use 'mouseover' e 'mouseout'.
 
 ```
 <!DOCTYPE html>
