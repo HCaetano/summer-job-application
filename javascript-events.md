@@ -24,7 +24,7 @@ A seguir, aprenderemos a funcionalidade responsável por monitorar eventos a fim
 
 ### Monitor de eventos
 
-Como já sabemos, eventos são responsáveis pela interação das pessoas usuárias com as nossas páginas, porém o que não sabemos é como o navegador sabe o que fazer quando clicamos em um botão, por exemplo. Pois saberemos agora! O reconhecimento que um evento foi acionado ou **disparado** (*triggered*, em inglês) acontece porque a pessoa desenvolvedora, ao criar um evento, o **associa** ao elemento HTML **alvo** daquela ação (voltaremos a essas duas palavras depois da aula). A partir de então, o navegador passa a **monitorar** aquele elemento no aguardo da ação indicada acontecer.
+Como já sabemos, eventos são responsáveis pela interação das pessoas usuárias com as nossas páginas, porém o que não sabemos é como o navegador sabe o que fazer quando clicamos em um botão, por exemplo. Pois saberemos agora! O reconhecimento que um evento foi acionado ou **disparado** (*triggered*, em inglês) acontece porque a pessoa desenvolvedora, ao criar um evento, o **associa** ao elemento HTML **alvo** daquela ação (voltaremos à palavra "alvo" mais tarde). A partir de então, o navegador passa a **monitorar** aquele elemento no aguardo da ação indicada acontecer.
 
 Vamos dar um passo para trás e pensar em uma analogia: o controle remoto de uma TV. Ele é um instrumento muito versátil, capaz de realizar diversas ações, seja aumentar ou diminuir o volume, trocar de canal, ~~abrir a Netflix~~ e, é claro, ligar e desligar a TV. Porém, se deixado parado em cima do sofá, não faz nada sozinho. Ele precisa do componente mais importante: a pessoa usuária. É ela quem aciona os eventos programados no controle ao clicar nos diversos botões que o controle possui. Ele é construído de forma a monitorar constantemente se o usuário pressionou seus botões. A seguir, veremos como é o dia a dia de um controle remoto.
 
@@ -107,6 +107,60 @@ Aproveite aquele mesmo arquivo HTML que você acabou de criar para os exercício
 4) Agora faça com que, em vez de trocar a fonte, a cor do texto seja trocada ao passar o *mouse* em cima do mesmo. 
 
 5) Vamos chegar na aula ao vivo voando :rocket:: crie um elemento ```input``` do tipo ```text``` e, ao digitar nele, faça com que o texto digitado apareça no console do navegador. Dica: o evento chama-se ```input```.
+
+### Parâmetro "event" e propriedade target
+
+Antes de irmos para a aula ao vivo, resta ainda conhecermos mais um aspecto do nosso novo superpoder: o parâmetro ```event``` e a propriedade ```target```, que em português podemos chamar de **alvo** (avisamos que iríamos voltar nesta palavra, não é? :wink:). Suponha que há uma sequência de quatro imagems lado a lado em uma ```section```. Poderíamos selecionar uma a uma, é verdade, mas e se quiséssemos aproveitar que estas imagens compartilham o elemento ```img``` entre elas para então selecioná-las usando um ```querySelectorAll```?
+
+HTML:
+```
+  <section>
+    <img src="https://shorturl.at/bkPS5" alt="Emoji with their tongue out">
+    <img src="https://shorturl.at/bkPS5" alt="Emoji with their tongue out">
+    <img src="https://shorturl.at/bkPS5" alt="Emoji with their tongue out">
+    <img src="https://shorturl.at/bkPS5" alt="Emoji with their tongue out">
+    <!-- Accrediting the author: <a href="https://www.vecteezy.com/free-vector/emoji">Emoji Vectors by Vecteezy</a> -->
+  </section>
+```
+CSS:
+```
+  <style>
+    section {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      height: 600px;
+      justify-content: space-evenly;
+    }
+  </style>
+```
+
+JS:
+```
+  const emojis = document.querySelectorAll('img');
+```
+
+Assim, em vez de termos quatro variáveis, uma com cada imagem, temos uma só para todas. Legal, né? Podemos acessar cada imagem em sua posição do array: ```emojis[posicao]```. Sendo um array, podemos, também, percorrê-lo em um ```for```. Você pode se perguntar porque isto seria útil e nós respondemos: para adicionar eventListeners a todos os elementos de uma vez só! O que??
+
+<img src="https://vip.socio-corp.jp/wp-content/uploads/sites/3/2016/07/mind-blown.gif" alt="Mindblown">
+
+Veja como seria um evento simples, que mostrasse no ```console.log``` o endereço da imagem:
+
+```
+  for (let index = 0; index < emojis.length; i += 1) {
+    emojis[index].addEventListener('click', function (event) {
+      console.log(event.target.src);
+    });
+  }
+```
+
+Aqui aparece o mencionado parâmetro ```event```, que contém todas as informações do evento que acabou de acontecer quando você clicou na imagem. Há muita informação nele, mas o que nos interessa de verdade, é a propriedade ```target```, pois ela contém todas as informações do **elemento alvo** do nosso clique. Veja o que está dentro de ```target``` neste momento:
+
+```
+<img src="https://shorturl.at/dio49" alt="Emoji with their tongue out">
+```
+
+O elemento clicado, como já esperávamos. Também já sabemos que imagens possuem um atributo ```src```, então neste evento que criamos, estamos acessando o ```src``` do **elemento clicado**, que chega até nós por intermédio das **informações que obtivemos sobre o evento**.
 
 ### Vamos fazer juntos!
 
