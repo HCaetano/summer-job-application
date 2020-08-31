@@ -10,6 +10,7 @@
 
 ### Solução:
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,6 +104,7 @@
   </script>
 </body>
 </html>
+```
 
 ## Exercício 2
 
@@ -113,6 +115,8 @@
   <img src="https://shorturl.at/cxzJR" alt="" height="400px">
 
 ### Solução:
+
+  ```
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -202,6 +206,7 @@
     </script>
   </body>
   </html>
+  ```
 
 ## Exercício 3
 
@@ -213,6 +218,7 @@
 
 ### Solução:
 
+  ```
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -309,6 +315,7 @@
     </script>
   </body>
   </html>
+  ```
 
 ## Exercício 4
 
@@ -320,6 +327,7 @@
 
 ### Solução:
 
+  ```
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -406,6 +414,7 @@
       <a href="https://www.vecteezy.com/free-vector/ship-vector">Ship Vector Vectors by Vecteezy</a>
       <a href="https://www.vecteezy.com/free-vector/band">Band Vectors by Vecteezy</a> -->
   </html>
+  ```
 
 ## Exercício bônus
 
@@ -423,6 +432,7 @@
 
 ### Solução:
 
+  ```
   <!DOCTYPE html>
   <html lang="en">
   <head>
@@ -592,3 +602,4 @@
     </script>
   </body>
   </html>
+  ```

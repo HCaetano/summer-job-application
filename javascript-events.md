@@ -48,6 +48,7 @@ Em termos técnicos, este monitor é uma função do JavaScript chamada ```addEv
 
 Veremos ela em ação a seguir. Crie um documento HTML simples e substitua o elemento ```body``` por este aqui:
 
+```
 <body>
   <button>Clique aqui!</button>
   <script>
@@ -60,6 +61,7 @@ Veremos ela em ação a seguir. Crie um documento HTML simples e substitua o ele
       button.addEventListener('click', acaoDisparadaPeloClique);
   </script>
 </body>
+```
 
 Seu primeiro evento! Que legal, não é mesmo? :sunglasses:
 
@@ -87,6 +89,7 @@ Aproveite aquele mesmo arquivo HTML que você acabou de criar para os exercício
 
 2) Troque a fonte de um texto para outra de sua preferência ao clicar no botão. Use o código a seguir como um ponto de partida.
 
+```
 <body>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos similique, nam maiores dolores aspernatur nostrum aliquid deleniti sapiente ipsa placeat itaque laboriosam ut dolorum, quisquam ratione dolorem accusantium dignissimos.</p>
   <button>Clique aqui!</button>
@@ -97,6 +100,7 @@ Aproveite aquele mesmo arquivo HTML que você acabou de criar para os exercício
       // seu evento aqui!
   </script>
 </body>
+```
 
 3) Mas não só de cliques vivem as pessoas desenvolvedoras. Remova o código relacionado ao botão e agora faça com que a fonte do texto seja trocada ao passar o *mouse* em cima do mesmo. Dica: o evento chama-se ```mouseover```.
 
@@ -120,6 +124,7 @@ Para ficarmos ainda melhores no conteúdo, que tal praticarmos um pouco mais? Vo
 
 Instruções: Você receberá um documento com dois parágrafos repletos de lorem ipsum, um botão para cada período/alteração do texto, e a estilização já pronta. Sua tarefa é criar eventos de clique que troquem a fonte do texto para as fontes fornecidas logo acima da *tag* ```title```. A escolha de qual fonte será associada a qual botão deixaremos por sua conta, mas você vai notar que algumas se encaixam melhores do que as outras. :wink:
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -191,6 +196,7 @@ Instruções: Você receberá um documento com dois parágrafos repletos de lore
   <script></script>
 </body>
 </html>
+```
 
 Note os links entre as *tags* ```style``` e ```title```. Eles servem para obter fontes especiais que serão necessárias nesta atividade. O que está escrito após "family=" é o **nome** da fonte e é este valor que deve ser utilizado na atividade. Em vez de usar ```elemento.style.fontFamily = 'Arial'```, use 'Butcherman', ok?
 
@@ -198,6 +204,7 @@ Note os links entre as *tags* ```style``` e ```title```. Eles servem para obter 
 
 Instruções: Você receberá um documento com quatro ```div```s vazias delimitadas por bordas pretas. Cada uma delas possui logo abaixo de si um campo de ```input``` do tipo ```text``` no qual você deverá digitar os nomes das cores. Feito isto, o ```input``` alterará o valor de ```background-color``` da ```div``` logo acima dele próprio a medida que você for digitando. Teste cores legais como Aquamarine, Maroon e MidnightBlue.
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -264,11 +271,13 @@ Instruções: Você receberá um documento com quatro ```div```s vazias delimita
   <script></script>
 </body>
 </html>
+```
 
 3) Você acolheu um gato fofinho que parecia não ter lar. Depois de muito carinho, percebeu que ele estava sentado lhe dirigindo o olhar. Em seguida, ele começa a falar! Não só isso, ele também lhe fez alguns pedidos!
 
 Instruções: Você receberá um documento com uma imagem inicial do gato misterioso em uma ```section```. Ao lado desta, há outra ```section```, que contém três sentenças proferidas pelo gato apresentadas em elementos ```p```. Ao passar o *mouse* sobre estas sentenças, o atributo ```source``` da imagem inicial deve ser alterada para uma das outras três imagens do gato disponibilizadas. A nova imagem só deve permanecer visível enquanto o *mouse* estiver sobre o elemento que contém a sentença. Ao retirar o *mouse* de cima da sentença, a imagem inicial do gato sentado deve ser restaurada. Dica: use 'mouseover'.
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -344,12 +353,15 @@ Instruções: Você receberá um documento com uma imagem inicial do gato mister
   <script></script>
 </body>
 </html>
+```
 
 A seguir, encontra-se uma lista com as outras três imagens do gato misterioso.
 
+```
 <img src="https://shorturl.at/hzBR5" alt="Cute cat in different positions">
 <img src="https://shorturl.at/ajlwK" alt="Cute cat in different positions">
 <img src="https://shorturl.at/moAB0" alt="Cute cat in different positions">
+```
 
 4) Chegou a hora das férias. Você trabalhou duro no seu primeiro ano como pessoa desenvolvedora e fez por merecer um belo descanso. Você viu online que está na moda passear de barco pelo Caribe e decidiu experimentar. Pesquisou bastante online e encontrou um lindo barquinho por um bom preço e começou a contar os dias para sair por aí desbravando os mares cristalinos da América Central. Chegando lá, no entanto, que azar! O navio tem três furos enormes em seu casco. No atracadouro onde se encontra o se navio, você encontrou uma caixa chamativa. Nela, encontrou três curativos e um bilhete: "Eles são mágicos! Tapam qualquer buraco". Meio rindo, mas meio no desespero, você decide colar os adesivos no navio e magicamente os buracos foram tapados!
 
@@ -359,6 +371,7 @@ Dicas:
     - Note que ```holes``` e ```bandages``` são **classes**, use isto a seu favor na hora de selecioná-los; :wink
     - Quem sabe você possa guardar o ```src``` da imagem da bandagem clicada em uma variável ~~selectedBandage~~? Aí, ao clicar em um dos elementos ```hole``` você possa trocar o conteúdo do ```src``` dele pelo que está contido na variável ~~selectedBandage~~.
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -429,6 +442,7 @@ Dicas:
     <a href="https://www.vecteezy.com/free-vector/ship-vector">Ship Vector Vectors by Vecteezy</a>
     <a href="https://www.vecteezy.com/free-vector/band">Band Vectors by Vecteezy</a> -->
 </html>
+```
 
 ### Bônus
 
@@ -446,6 +460,7 @@ Na segunda ```section```, encontram-se um botão, uma imagem que representa o re
 
 Ao passar o *mouse* em cima da imagem do relógio solar, o ```input``` do tipo ```time``` terá o seu atributo ```value``` alterado para mostrar um horário entre as seguintes opções: '06:00', '12:00', '18:00', dependendo da posição do Sol. Se o Sol avançar para outra posição no céu, o atributo ```value``` deste ```input``` deve ficar vazio. Lembrando que à noite não deve ser possível descobrir as horas no relógio solar, então o valor do relógio moderno deve permanecer vazio.
 
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -539,7 +554,8 @@ Ao passar o *mouse* em cima da imagem do relógio solar, o ```input``` do tipo `
   <script></script>
 </body>
 </html>
+```
 
-A imagem do sol que você deve utilizar é esta: <img src="https://shorturl.at/boyGV" alt="Sun">.
+A imagem do sol que você deve utilizar é esta: ```<img src="https://shorturl.at/boyGV" alt="Sun">```.
 
 Dica: você pode criar uma variável numérica para guardar a posição do Sol no céu. Assim, ao clicar no botão, você pode incrementá-la em ```1```. A partir de então, poderá usá-la como índice caso você decida tratar as ```divs``` que guardam as posições no céu como um array.
