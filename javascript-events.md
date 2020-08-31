@@ -108,7 +108,7 @@ Aproveite aquele mesmo arquivo HTML que você acabou de criar para os exercício
 
 5) Vamos chegar na aula ao vivo voando :rocket:: crie um elemento ```input``` do tipo ```text``` e, ao digitar nele, faça com que o texto digitado apareça no console do navegador. Dica: o evento chama-se ```input```.
 
-### Parâmetro "event" e propriedade target
+### Parâmetro *event* e propriedade *target*
 
 Antes de irmos para a aula ao vivo, resta ainda conhecermos mais um aspecto do nosso novo superpoder: o parâmetro ```event``` e a propriedade ```target```, que em português podemos chamar de **alvo** (avisamos que iríamos voltar nesta palavra, não é? :wink:). Suponha que há uma sequência de quatro imagems lado a lado em uma ```section```. Poderíamos selecionar uma a uma, é verdade, mas e se quiséssemos aproveitar que estas imagens compartilham o elemento ```img``` entre elas para então selecioná-las usando um ```querySelectorAll```?
 
