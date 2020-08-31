@@ -446,8 +446,8 @@ Chegou a hora das férias. Você trabalhou duro no seu primeiro ano como pessoa 
 **Instruções**: Você receberá um documento com a imagem de um navio que, por sua vez, possui sobreposto a si três imagens de furos em seu casco. O navio é a imagem de fundo de uma ```section``` e os curativos ficam em outra ```section```. Exceto pelo navio, as imagens são todas elementos ```img``` com um atributo ```source```. Ao clicar em um curativo, a página deve "lembrar" dele, de forma que se a pessoa usuária clicar em cima de um ou mais buracos, estes tenham sua imagem substituída pela imagem do curativo clicado. 
 
 Dicas: 
-    - Note que ```holes``` e ```bandages``` são **classes**, use isto a seu favor na hora de selecioná-los; :wink
-    - Quem sabe você possa guardar o ```src``` da imagem da bandagem clicada em uma variável ~~selectedBandage~~? Aí, ao clicar em um dos elementos ```hole``` você possa trocar o conteúdo do ```src``` dele pelo que está contido na variável ~~selectedBandage~~.
+  - Note que ```holes``` e ```bandages``` são **classes**, use isto a seu favor na hora de selecioná-los; :wink   
+  - Quem sabe você possa guardar o ```src``` da imagem da bandagem clicada em uma variável ~~selectedBandage~~? Aí, ao clicar em um dos elementos ```hole``` você possa trocar o conteúdo do ```src``` dele pelo que está contido na variável ~~selectedBandage~~.   
 
 ```
 <!DOCTYPE html>
