@@ -213,7 +213,7 @@
 
 ## Exercício 3
 
-  Você receberá um documento com uma imagem inicial do gato misterioso em uma ```section```. Ao lado desta, há outra ```section```, que contém três sentenças proferidas pelo gato apresentadas em elementos ```p```. Ao passar o *mouse* sobre estas sentenças, o atributo ```source``` da imagem inicial deve ser alterada para uma das outras três imagens do gato disponibilizadas. A nova imagem só deve permanecer visível enquanto o mouse estiver sobre o elemento que contém a sentença. Ao retirar o mouse de cima da sentença, a imagem inicial do gato sentado deve ser restaurada. Dica: use 'mouseover'.
+  Você receberá um documento com uma imagem inicial do gato misterioso em uma ```section```. Ao lado desta, há outra ```section```, que contém três sentenças proferidas pelo gato apresentadas em elementos ```p```. Ao passar o *mouse* sobre estas sentenças, o atributo ```source``` da imagem inicial deve ser alterada para uma das outras três imagens do gato disponibilizadas. A nova imagem só deve permanecer visível enquanto o *mouse* estiver sobre o elemento que contém a sentença. Ao retirar o *mouse* de cima da sentença, a imagem inicial do gato sentado deve ser restaurada. Dica: use 'mouseover'.
 
 ### Gif
 
@@ -430,7 +430,7 @@
 
   É importante notar que o céu muda ao longo dia e da noite. Sendo assim, ao nascer do Sol, a ```section``` de classe "sky" deve receber a classe "sunrise", que possui um gradiente de cores que tenta simular o espetáculo do nascer do Sol. Ao meio dia, deve ter esta classe trocada por "midday". Ao por do Sol, deve perder esta classe e ganhar aquela chamada "sunset", que também possui um gradiente de cores. Quando anoitecer, a classe "night" deve retornar ao elemento ```section``` de classe "sky". É importante ressaltar que a classe "sky" deve sempre permanecer, pois ela contém estilo próprio e, se removida, quebrará a página. Note que as ```div```s onde o Sol aparece possuem uma classe ("quadrant"), então use isso a seu favor quando for selecioná-las.
 
-  Ao passar o mouse em cima da imagem do relógio solar, o ```input``` do tipo ```time``` terá o seu atributo ```value``` alterado para mostrar um horário entre as seguintes opções: '06:00', '12:00', '18:00', dependendo da posição do Sol. Se o Sol avançar para outra posição no céu, o atributo ```value``` deste ```input``` deve ficar vazio. Lembrando que à noite não deve ser possível descobrir as horas no relógio solar, então o valor do relógio moderno deve permanecer vazio.
+  Ao passar o *mouse* em cima da imagem do relógio solar, o ```input``` do tipo ```time``` terá o seu atributo ```value``` alterado para mostrar um horário entre as seguintes opções: '06:00', '12:00', '18:00', dependendo da posição do Sol. Se o Sol avançar para outra posição no céu, o atributo ```value``` deste ```input``` deve ficar vazio. Lembrando que à noite não deve ser possível descobrir as horas no relógio solar, então o valor do relógio moderno deve permanecer vazio.
 
 ### Gif
 
