@@ -395,7 +395,7 @@
     <script>
       const holes = document.querySelectorAll('.hole');
       const bandages = document.querySelectorAll('.bandages');
-      let selectedBandage;
+      let selectedBandage = 'https://shorturl.at/fCDGU';
 
       for (let index = 0; index < bandages.length; index += 1) {
         bandages[index].addEventListener('click', function (event) {
