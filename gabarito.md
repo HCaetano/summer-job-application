@@ -10,103 +10,103 @@
 
 ### Solução:
 
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      body {
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
         margin: auto;
         width: 80%;
-      }
+    }
 
-      h1,
-      section {
-        text-align: center;
-        margin: 25px;
-        padding: 10px;
-      }
+    h1,
+    section {
+      text-align: center;
+      margin: 25px;
+      padding: 10px;
+    }
 
-      button {
-        margin-right: 10px;
-        padding: 5px;
-      }
+    button {
+      margin-right: 10px;
+      padding: 5px;
+    }
 
-      p {
-        font-size: 20px;
-        line-height: 20px;
-        text-align: justify;
-      }
-    </style>
-    <link href='https://fonts.googleapis.com/css?family=Butcherman' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Give You Glory' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Astloch' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Ewert' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
-    <title>Tipos de escrita por época</title>
-  </head>
+    p {
+      font-size: 20px;
+      line-height: 20px;
+      text-align: justify;
+    }
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=Butcherman' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Give You Glory' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Astloch' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Ewert' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+  <title>Tipos de escrita por época</title>
+</head>
 
-  <body>
-    <h1>Tipos de escrita que você veria viajando no tempo</h1>
-    <section>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua Porttitor lacus luctus accumsan tortor posuere. Turpis cursus in hac habitasse platea dictumst.
-        Vulputate enim nulla aliquet porttitor lacus luctus. Amet facilisis magna etiam tempor orci. Et leo duis ut diam.
-        Mattis molestie a iaculis at erat pellentesque. Est ultricies integer quis auctor elit sed vulputate mi. Elementum
-        sagittis vitae et leo duis ut. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Proin nibh
-        nisl condimentum id venenatis a. Sed arcu non odio euismod lacinia. Commodo elit at imperdiet dui. Morbi tristique
-        senectus et netus. Amet est placerat in egestas erat. Scelerisque eleifend donec pretium vulputate sapien nec
-        sagittis. Dapibus ultrices in iaculis nunc sed. Odio pellentesque diam volutpat commodo sed egestas egestas. Morbi
-        tristique senectus et netus. Risus feugiat in ante metus dictum at.
-      </p>
-      <p>
-        Amet dictum sit amet justo donec. Ut consequat semper viverra nam libero justo laoreet sit amet. Purus in massa
-        tempor nec feugiat nisl pretium fusce id. Integer enim neque volutpat ac tincidunt vitae semper quis. Nunc sed
-        blandit libero volutpat sed. Dui id ornare arcu odio ut sem nulla. Non curabitur gravida arcu ac tortor dignissim
-        convallis aenean et. Consequat interdum varius sit amet mattis vulputate enim nulla. A diam sollicitudin tempor id
-        eu nisl nunc mi ipsum. Proin sagittis nisl rhoncus mattis. Viverra justo nec ultrices dui sapien. Tortor at risus
-        viverra adipiscing at in. Justo eget magna fermentum iaculis eu.
-      </p>
-    </section>
-    <section>
-      <button>Halloween</button>
-      <button>Velho oeste</button>
-      <button>Roma antiga</button>
-      <button>Quinta série</button>
-      <button>Europa, ano 1423</button>
-      <button>Futuro distópico</button>
-    </section>
+<body>
+  <h1>Tipos de escrita que você veria viajando no tempo</h1>
+  <section>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua Porttitor lacus luctus accumsan tortor posuere. Turpis cursus in hac habitasse platea dictumst.
+      Vulputate enim nulla aliquet porttitor lacus luctus. Amet facilisis magna etiam tempor orci. Et leo duis ut diam.
+      Mattis molestie a iaculis at erat pellentesque. Est ultricies integer quis auctor elit sed vulputate mi. Elementum
+      sagittis vitae et leo duis ut. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Proin nibh
+      nisl condimentum id venenatis a. Sed arcu non odio euismod lacinia. Commodo elit at imperdiet dui. Morbi tristique
+      senectus et netus. Amet est placerat in egestas erat. Scelerisque eleifend donec pretium vulputate sapien nec
+      sagittis. Dapibus ultrices in iaculis nunc sed. Odio pellentesque diam volutpat commodo sed egestas egestas. Morbi
+      tristique senectus et netus. Risus feugiat in ante metus dictum at.
+    </p>
+    <p>
+      Amet dictum sit amet justo donec. Ut consequat semper viverra nam libero justo laoreet sit amet. Purus in massa
+      tempor nec feugiat nisl pretium fusce id. Integer enim neque volutpat ac tincidunt vitae semper quis. Nunc sed
+      blandit libero volutpat sed. Dui id ornare arcu odio ut sem nulla. Non curabitur gravida arcu ac tortor dignissim
+      convallis aenean et. Consequat interdum varius sit amet mattis vulputate enim nulla. A diam sollicitudin tempor id
+      eu nisl nunc mi ipsum. Proin sagittis nisl rhoncus mattis. Viverra justo nec ultrices dui sapien. Tortor at risus
+      viverra adipiscing at in. Justo eget magna fermentum iaculis eu.
+    </p>
+  </section>
+  <section>
+    <button>Halloween</button>
+    <button>Velho oeste</button>
+    <button>Roma antiga</button>
+    <button>Quinta série</button>
+    <button>Europa, ano 1423</button>
+    <button>Futuro distópico</button>
+  </section>
 
-    <script>
-      const textSection = document.querySelector('section');
-      const buttons = document.querySelectorAll('button');
+  <script>
+    const textSection = document.querySelector('section');
+    const buttons = document.querySelectorAll('button');
 
-      buttons[0].addEventListener('click', function () {
-        textSection.style.fontFamily = 'Butcherman';
-      })
-      buttons[1].addEventListener('click', function () {
-        textSection.style.fontFamily = 'Ewert';
-      })
-      buttons[2].addEventListener('click', function () {
-        textSection.style.fontFamily = 'Caesar Dressing';
-      })
-      buttons[3].addEventListener('click', function () {
-        textSection.style.fontFamily = 'Give You Glory';
-      })
-      buttons[4].addEventListener('click', function () {
-        textSection.style.fontFamily = 'Astloch';
-      })
-      buttons[5].addEventListener('click', function () {
-        textSection.style.fontFamily = 'Orbitron';
-      })
-    </script>
-  </body>
+    buttons[0].addEventListener('click', function () {
+      textSection.style.fontFamily = 'Butcherman';
+    })
+    buttons[1].addEventListener('click', function () {
+      textSection.style.fontFamily = 'Ewert';
+    })
+    buttons[2].addEventListener('click', function () {
+      textSection.style.fontFamily = 'Caesar Dressing';
+    })
+    buttons[3].addEventListener('click', function () {
+      textSection.style.fontFamily = 'Give You Glory';
+    })
+    buttons[4].addEventListener('click', function () {
+      textSection.style.fontFamily = 'Astloch';
+    })
+    buttons[5].addEventListener('click', function () {
+      textSection.style.fontFamily = 'Orbitron';
+    })
+  </script>
+</body>
 
-  </html>
+</html>
 
 ## Exercício 2
 
@@ -117,7 +117,6 @@
   <img src="https://shorturl.at/cxzJR" alt="" height="400px">
 
 ### Solução:
-
   <!DOCTYPE html>
   <html lang="en">
 
@@ -151,7 +150,7 @@
 
       button,
       div:last-of-type {
-        padding: 5px;
+          padding: 5px;
       }
     </style>
     <title>Gerador de cores</title>
@@ -320,6 +319,7 @@
   </body>
 
   </html>
+    
 
 ## Exercício 4
 
@@ -382,7 +382,7 @@
         width: 60px;
       }
     </style>
-    <title>Fix the ship's holes</title>
+    <title>Conserte os buracos do navio</title>
   </head>
 
   <body>
@@ -415,12 +415,10 @@
       }
     </script>
   </body>
-
+      <!-- Accrediting the author:
+      <a href="https://www.vecteezy.com/free-vector/ship-vector">Ship Vector Vectors by Vecteezy</a>
+      <a href="https://www.vecteezy.com/free-vector/band">Band Vectors by Vecteezy</a> -->
   </html>
-
-  <!-- Accreding the author:
-    <a href="https://www.vecteezy.com/free-vector/ship-vector">Ship Vector Vectors by Vecteezy</a>
-    <a href="https://www.vecteezy.com/free-vector/band">Band Vectors by Vecteezy</a> -->
 
 ## Exercício bônus
 
@@ -478,7 +476,7 @@
         align-self: flex-start;
       }
 
-      .quadrant>img {
+    .quadrant>img {
         border-radius: 50%;
         height: 200px;
       }
