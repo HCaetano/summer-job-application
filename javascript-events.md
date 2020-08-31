@@ -178,6 +178,10 @@ Para ficarmos ainda melhores no conteúdo, que tal praticarmos um pouco mais? Vo
 
 Imagine você encontrou um artefato estranho, com um botão. A curiosade bate e você aperta o botão. Olhando ao redor, vê decorações de *Halloween*. Após alguns passos, vê um cartaz promovendo uma festa. Imediatamente, você percebe que a letra está diferente, esquisita e escorrida ~~, como se fosse sangue falso~~, bem no clima do momento. Cada vez que você apertar o botão, viajará no tempo e terá contato com formas diferentes de escrita, que refletem aquele momento da história em que você se encontra.
 
+##### Demo
+
+  <img src="https://shorturl.at/gpCY6" alt="" height="400px">
+
 **Instruções**: Você receberá um documento com dois parágrafos repletos de lorem ipsum, um botão para cada período/alteração do texto, e a estilização já pronta. Sua tarefa é criar eventos de clique que troquem a fonte do texto para as fontes fornecidas logo acima da *tag* ```title```. A escolha de qual fonte será associada a qual botão deixaremos por sua conta, mas você vai notar que algumas se encaixam melhores do que as outras. :wink:
 
 ```
@@ -260,6 +264,10 @@ Note os links entre as *tags* ```style``` e ```title```. Eles servem para obter 
 
 Agora você ganhará o poder de, ao escrever o nome de cores em inglês, fazer com que os quadros na sua tela fiquem preenchidos com esta cor.
 
+##### Demo
+
+  <img src="https://shorturl.at/cxzJR" alt="" height="400px">
+
 **Instruções**: Você receberá um documento com quatro ```div```s vazias delimitadas por bordas pretas. Cada uma delas possui logo abaixo de si um campo de ```input``` do tipo ```text``` no qual você deverá digitar os nomes das cores. Feito isto, o ```input``` alterará o valor de ```background-color``` da ```div``` logo acima dele próprio a medida que você for digitando. Teste cores legais como Aquamarine, Maroon e MidnightBlue.
 
 ```
@@ -334,6 +342,10 @@ Agora você ganhará o poder de, ao escrever o nome de cores em inglês, fazer c
 #### 3 - Gato fofinho
 
 Você acolheu um gato fofinho que parecia não ter lar. Depois de muito carinho, percebeu que ele estava sentado lhe dirigindo o olhar. Em seguida, ele começa a falar! Não só isso, ele também lhe fez alguns pedidos!
+
+##### Demo
+
+  <img src="https://shorturl.at/rvIZ6" alt="" height="400px">
 
 **Instruções**: Você receberá um documento com uma imagem inicial do gato misterioso em uma ```section```. Ao lado desta, há outra ```section```, que contém três sentenças proferidas pelo gato apresentadas em elementos ```p```. Ao passar o *mouse* sobre estas sentenças, o atributo ```source``` da imagem inicial deve ser alterada para uma das outras três imagens do gato disponibilizadas. A nova imagem só deve permanecer visível enquanto o *mouse* estiver sobre o elemento que contém a sentença. Ao retirar o *mouse* de cima da sentença, a imagem inicial do gato sentado deve ser restaurada. Dica: use 'mouseover' e 'mouseout'.
 
@@ -427,6 +439,10 @@ A seguir, encontra-se uma lista com as outras três imagens do gato misterioso.
 
 Chegou a hora das férias. Você trabalhou duro no seu primeiro ano como pessoa desenvolvedora e fez por merecer um belo descanso. Você viu online que está na moda passear de barco pelo Caribe e decidiu experimentar. Pesquisou bastante online e encontrou um lindo barquinho por um bom preço e começou a contar os dias para sair por aí desbravando os mares cristalinos da América Central. Chegando lá, no entanto, que azar! O navio tem três furos enormes em seu casco. No atracadouro onde se encontra o se navio, você encontrou uma caixa chamativa. Nela, encontrou três curativos e um bilhete: "Eles são mágicos! Tapam qualquer buraco". Meio rindo, mas meio no desespero, você decide colar os adesivos no navio e magicamente os buracos foram tapados!
 
+### Demo
+
+  <img src="https://shorturl.at/vDHQ3" alt="" height="400px">
+
 **Instruções**: Você receberá um documento com a imagem de um navio que, por sua vez, possui sobreposto a si três imagens de furos em seu casco. O navio é a imagem de fundo de uma ```section``` e os curativos ficam em outra ```section```. Exceto pelo navio, as imagens são todas elementos ```img``` com um atributo ```source```. Ao clicar em um curativo, a página deve "lembrar" dele, de forma que se a pessoa usuária clicar em cima de um ou mais buracos, estes tenham sua imagem substituída pela imagem do curativo clicado. 
 
 Dicas: 
@@ -513,6 +529,10 @@ Você sabe o que é um relógio solar? Em tempos passados, antes da invenção d
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Melbourne_sundial_at_Flagstaff_Gardens.JPG/1280px-Melbourne_sundial_at_Flagstaff_Gardens.JPG" alt="Relógio solar" width="631" height="400"/>
 
 Faremos algo inspirado em um relógio solar. Imagine que você ficou sabendo da existência deste curioso objeto e, na sua segunda oportunidade de férias, decidiu não arriscar com barcos e foi para a Austrália conhecer um autêntico relógio deste tipo. Chegando lá, visitou o objeto quatro vezes, a fim de ver a projeção da sombra no relógio: ao nascer do Sol, às 6 da manhã; ao meio-dia; ao por do Sol, às 6 da tarde; e à meia-noite. Pôde notar que a sombra projetada pela lâmina residia aproximadamente na hora certa, exceto à noite, em que, como é de se esperar, não havia sombra e nem horário marcado.
+
+##### Demo
+
+  <img src="https://shorturl.at/ejMV8" alt="" height="400px">
 
 **Instruções**: Você receberá um documento com uma ```section``` com classe "sky" cuja cor de fundo é controlada pela classe "night" e é preta, para simbolizar o céu durante a noite. Secretamente, esta ```section``` possui três ```div```s vazias: uma em cada canto inferior e outra no meio da ```section```, colada ao topo deste elemento. Estas ```div```s simbolizam a posição do Sol ao longo dia: canto inferior esquerdo, 6 da manhã; topo, meio-dia; canto inferior direito, 6 da tarde. 
 
