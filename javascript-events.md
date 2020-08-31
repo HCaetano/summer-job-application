@@ -142,7 +142,7 @@ JS:
 
 Assim, em vez de termos quatro variáveis, uma com cada imagem, temos uma só para todas. Legal, né? Podemos acessar cada imagem em sua posição do array: ```emojis[posicao]```. Sendo um array, podemos, também, percorrê-lo em um ```for```. Você pode se perguntar porque isto seria útil e nós respondemos: para adicionar eventListeners a todos os elementos de uma vez só! O que??
 
-<img src="https://vip.socio-corp.jp/wp-content/uploads/sites/3/2016/07/mind-blown.gif" alt="Mindblown">
+<img src="https://cilisos.my/wp-content/uploads/2016/11/mind-blown.gif" alt="Mindblown">
 
 Veja como seria um evento simples, que mostrasse no ```console.log``` o endereço da imagem:
 
